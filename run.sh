@@ -10,13 +10,9 @@ COMBINED_OUTPUT="combined_data.dat"
 source ../Documents/env_fold/python3.10/bin/activate
 
 # Define the range of 'k' values (e.g., from 0.01 to 0.05 with a step of 0.01)
-for k in $(seq -2 1 3); do
+for k in $(seq 1 0.1 1.2); do
     # Run the Python script with 'k' as an argument
     python3 $PYTHON_SCRIPT $k
-
-    # Copy the output file to the destination folder
-    OUTPUT_FILE="data/output_upd.dat"
-    cp $OUTPUT_FILE $DEST_DIR
 
     # Change directory to the destination folder
     cd $DEST_DIR
@@ -30,12 +26,13 @@ for k in $(seq -2 1 3); do
     cd /home/joel/BTP
     # sudo chmod 777 combined_data.dat
     # cd ../
-
+    timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
     # Run the GNSS-SDR tool with the specified config file and save the log output
-    gnss-sdr --config_file=$CONFIG_FILE > log_k_${k}.txt
+    gnss-sdr --config_file=$CONFIG_FILE > logs/log_k_${k}_$timestamp.txt
 
+    sed -i '1i Removed subframes: 3' logs/log_k_${k}_$timestamp.txt
     # Completion message
-    echo "Process completed for k=$k. Combined data file moved to $FINAL_DEST_DIR/combined_data_k_${k}.dat. Log saved as log_k_${k}.txt"
+    echo "Process completed for k=$k. Combined data file moved to $FINAL_DEST_DIR/combined_data_k_${k}.dat. Log saved as log_k_${k}_$timestamp.txt"
 
     # Optionally, you can clean up the individual output file to save space
     # rm $OUTPUT_FILE
