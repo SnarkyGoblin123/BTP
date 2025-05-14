@@ -368,6 +368,8 @@ gps-sdr-sim -e brdc0010.22n -l 30.286502,120.032669,100 -s 4e6 -o output.dat
 
   \item This means that as we move into the data there is a shift in the bits, which we were not able to figure out. Once this shift is corrected, we would be able to subtract a satellite successfully
   \item Since this is synthetic data, we believe this should not be because of the clock correction in satellites. Nevertheless, look into gps-sdr-sim code to see if they are trying to simulate the clock correction.
+  \item In test.ipynb, the shifting of prn symbols can be seen if you run the code, its mentioned there.
+  \item While tackling this problem, try to think openly as our reasonings might be wrong and we might have made a mistake somewhere in the code.
 \end{itemize}
 
 \begin{figure}[H]

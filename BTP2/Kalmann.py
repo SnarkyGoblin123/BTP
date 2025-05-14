@@ -1,6 +1,81 @@
 import numpy as np
+"""
+Kalmann.py
+
+This script implements a Kalman Filter for estimating and predicting Doppler shift data. 
+The Kalman Filter is initialized with predefined parameters and processes real Doppler 
+data obtained from a file. The script also visualizes the real Doppler data alongside 
+the estimated and predicted Doppler data.
+
+This can be utilized for spoofing this way. Say we have the past correct doppler, we can predict the doppler for the next 5 seconds or so
+Use this to generate the data for spoofing of th enext 5 seconds beforehand and at theexact time send the signal for spoofing
+
+Classes:
+    KalmanFilter: A class that encapsulates the Kalman Filter algorithm, including 
+                  initialization, prediction, update, and future prediction.
+
+Functions:
+    read_doppler_data(filename): Reads Doppler data from the specified file. 
+                                 (Imported from Extract_doppler module)
+
+Usage:
+    - The KalmanFilter class is used to estimate Doppler shift data from measurements.
+    - The `run_filter` method processes real Doppler data to estimate the Doppler shift.
+    - The `predict_future` method predicts future Doppler shifts for a specified number of steps.
+    - The script visualizes the real Doppler data, estimated Doppler data, and optionally 
+      predicted future Doppler data using matplotlib.
+
+Attributes:
+    state (numpy.ndarray): The current state vector of the Kalman Filter.
+    P (numpy.ndarray): The state covariance matrix.
+    F (numpy.ndarray): The state transition model.
+    Q (numpy.ndarray): The process noise covariance matrix.
+    H (numpy.ndarray): The observation model.
+    R (numpy.ndarray): The measurement noise covariance matrix.
+
+Methods:
+    initialize_kalman_filter():
+        Initializes the Kalman Filter parameters including state, covariance, 
+        transition model, process noise, observation model, and measurement noise.
+
+    predict():
+        Performs the prediction step of the Kalman Filter, updating the state 
+        and covariance based on the state transition model.
+
+    update(z):
+        Performs the update step of the Kalman Filter using the provided measurement `z`.
+        Updates the state and covariance based on the Kalman gain and innovation.
+
+    run_filter(measurements):
+        Runs the Kalman Filter on a sequence of measurements to estimate the Doppler shift.
+        Args:
+            measurements (list or numpy.ndarray): The sequence of Doppler measurements.
+        Returns:
+            list: The estimated Doppler values.
+
+    predict_future(steps):
+        Predicts future Doppler shifts for a specified number of steps using the Kalman Filter.
+        Args:
+            steps (int): The number of future steps to predict.
+        Returns:
+            list: The predicted Doppler values.
+
+Example:
+
+
+    # Run Kalman filter on real data
+    estimated_doppler = kf.run_filter(real_doppler[:1000])
+
+    # Predict Doppler for the next 10 seconds
+    future_doppler = kf.predict_future(500)
+
+"""
 import matplotlib.pyplot as plt
 from Extract_doppler import read_doppler_data
+
+
+
+
 
 class KalmanFilter:
     def __init__(self):

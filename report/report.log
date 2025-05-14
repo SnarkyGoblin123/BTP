@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.5)  14 MAY 2025 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.5)  14 MAY 2025 20:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -455,81 +455,81 @@ Package pdftex.def Info: cancellation.png  used on input line 340.
 <misalign.png, id=284, 1193.45876pt x 792.9625pt>
 File: misalign.png Graphic file (type png)
 <use misalign.png>
-Package pdftex.def Info: misalign.png  used on input line 375.
+Package pdftex.def Info: misalign.png  used on input line 377.
 (pdftex.def)             Requested size: 315.14594pt x 209.38388pt.
  [9]
 <path1.png, id=289, 886.31125pt x 631.35875pt>
 File: path1.png Graphic file (type png)
 <use path1.png>
-Package pdftex.def Info: path1.png  used on input line 402.
+Package pdftex.def Info: path1.png  used on input line 404.
 (pdftex.def)             Requested size: 252.11194pt x 179.5923pt.
 <spoofed_path1.png, id=290, 522.95375pt x 406.51875pt>
 File: spoofed_path1.png Graphic file (type png)
 <use spoofed_path1.png>
-Package pdftex.def Info: spoofed_path1.png  used on input line 409.
+Package pdftex.def Info: spoofed_path1.png  used on input line 411.
 (pdftex.def)             Requested size: 252.11194pt x 195.98279pt.
 <path2.png, id=291, 315.1775pt x 276.03125pt>
 File: path2.png Graphic file (type png)
 <use path2.png>
-Package pdftex.def Info: path2.png  used on input line 419.
+Package pdftex.def Info: path2.png  used on input line 421.
 (pdftex.def)             Requested size: 252.11194pt x 220.80002pt.
 <spoofed_path2.png, id=292, 251.94125pt x 232.87pt>
 File: spoofed_path2.png Graphic file (type png)
 <use spoofed_path2.png>
-Package pdftex.def Info: spoofed_path2.png  used on input line 426.
+Package pdftex.def Info: spoofed_path2.png  used on input line 428.
 (pdftex.def)             Requested size: 252.11194pt x 233.02931pt.
  [10 <./misalign.png> <./path1.png> <./spoofed_path1.png>]
 <t135.png, id=301, 670.00313pt x 411.78844pt>
 File: t135.png Graphic file (type png)
 <use t135.png>
-Package pdftex.def Info: t135.png  used on input line 473.
+Package pdftex.def Info: t135.png  used on input line 475.
 (pdftex.def)             Requested size: 252.11194pt x 154.94807pt.
 <t135_sp.png, id=302, 649.67719pt x 398.99063pt>
 File: t135_sp.png Graphic file (type png)
 <use t135_sp.png>
-Package pdftex.def Info: t135_sp.png  used on input line 480.
+Package pdftex.def Info: t135_sp.png  used on input line 482.
 (pdftex.def)             Requested size: 252.11194pt x 154.82643pt.
  [11 <./path2.png> <./spoofed_path2.png>]
 <t180.png, id=312, 670.00313pt x 411.78844pt>
 File: t180.png Graphic file (type png)
 <use t180.png>
-Package pdftex.def Info: t180.png  used on input line 490.
+Package pdftex.def Info: t180.png  used on input line 492.
 (pdftex.def)             Requested size: 252.11194pt x 154.94807pt.
 <t180_sp.png, id=313, 649.67719pt x 398.99063pt>
 File: t180_sp.png Graphic file (type png)
 <use t180_sp.png>
-Package pdftex.def Info: t180_sp.png  used on input line 497.
+Package pdftex.def Info: t180_sp.png  used on input line 499.
 (pdftex.def)             Requested size: 252.11194pt x 154.82643pt.
 <t225.png, id=314, 668.4975pt x 411.78844pt>
 File: t225.png Graphic file (type png)
 <use t225.png>
-Package pdftex.def Info: t225.png  used on input line 507.
+Package pdftex.def Info: t225.png  used on input line 509.
 (pdftex.def)             Requested size: 252.11194pt x 155.29994pt.
 <t225_sp.png, id=315, 645.16031pt x 397.485pt>
 File: t225_sp.png Graphic file (type png)
 <use t225_sp.png>
-Package pdftex.def Info: t225_sp.png  used on input line 514.
+Package pdftex.def Info: t225_sp.png  used on input line 516.
 (pdftex.def)             Requested size: 252.11194pt x 155.32178pt.
 <t225_z1.png, id=316, 462.22687pt x 411.78844pt>
 File: t225_z1.png Graphic file (type png)
 <use t225_z1.png>
-Package pdftex.def Info: t225_z1.png  used on input line 524.
+Package pdftex.def Info: t225_z1.png  used on input line 526.
 (pdftex.def)             Requested size: 168.07996pt x 149.73915pt.
 <t225_z2.png, id=317, 457.71pt x 411.78844pt>
 File: t225_z2.png Graphic file (type png)
 <use t225_z2.png>
-Package pdftex.def Info: t225_z2.png  used on input line 531.
+Package pdftex.def Info: t225_z2.png  used on input line 533.
 (pdftex.def)             Requested size: 168.07996pt x 151.21574pt.
 <t225_z3.png, id=318, 451.6875pt x 411.78844pt>
 File: t225_z3.png Graphic file (type png)
 <use t225_z3.png>
-Package pdftex.def Info: t225_z3.png  used on input line 538.
+Package pdftex.def Info: t225_z3.png  used on input line 540.
 (pdftex.def)             Requested size: 168.07996pt x 153.23271pt.
  [12 <./t135.png> <./t135_sp.png> <./t180.png> <./t180_sp.png> <./t225.png> <./t225_sp.png>]
 <alpvsgain.png, id=332, 494.59781pt x 411.78844pt>
 File: alpvsgain.png Graphic file (type png)
 <use alpvsgain.png>
-Package pdftex.def Info: alpvsgain.png  used on input line 555.
+Package pdftex.def Info: alpvsgain.png  used on input line 557.
 (pdftex.def)             Requested size: 315.14594pt x 262.38126pt.
  [13 <./t225_z1.png> <./t225_z2.png> <./t225_z3.png> <./alpvsgain.png>] [14] (./report.aux)
  ***********
@@ -548,7 +548,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,476b,770s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on report.pdf (16 pages, 4573572 bytes).
+Output written on report.pdf (16 pages, 4573786 bytes).
 PDF statistics:
  435 PDF objects out of 1000 (max. 8388607)
  341 compressed objects within 4 object streams

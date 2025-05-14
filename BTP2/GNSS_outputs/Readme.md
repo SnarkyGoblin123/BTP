@@ -1,0 +1,1 @@
+This file contains experiments for the alternative spoofing methods, the kml files that were generated after running gnss-sdr are present here for different paths

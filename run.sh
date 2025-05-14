@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+# This script runs a Python script with different values of 'k', combines output files, and runs the GNSS-SDR tool.
 # Set variables
 PYTHON_SCRIPT="packing.py"  # Replace with the name of your Python script
 DEST_DIR="/home/joel/gps-sdr-sim-master/gen_data_split"  # Replace with your destination folder path
