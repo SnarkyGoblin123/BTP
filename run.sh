@@ -10,7 +10,7 @@ COMBINED_OUTPUT="combined_data.dat"
 source ../Documents/env_fold/python3.10/bin/activate
 
 # Define the range of 'k' values (e.g., from 0.01 to 0.05 with a step of 0.01)
-for k in $(seq 1 0.1 1.2); do
+for k in $(seq 1 0.1 1); do
     # Run the Python script with 'k' as an argument
     python3 $PYTHON_SCRIPT $k
 

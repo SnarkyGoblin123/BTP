@@ -1,0 +1,12 @@
+Removed subframes: 3
+Initializing GNSS-SDR v0.0.16 ... Please wait.
+Logging will be written at "/tmp"
+Use gnss-sdr --log_dir=/path/to/log to change that.
+RF Channels: 1
+File ././nmea_pvt.nmea cannot be saved. Wrong permissions?
+Starting a TCP/IP server of RTCM messages on port 2101
+The TCP/IP server of RTCM messages is up and running. Accepting connections ...
+file_source :error: /home/joel/BTP/BTP2/output.dat: No such file or directory
+Stopping TCP/IP server on port 2101
+Total GNSS-SDR run time: 0.00249453 [seconds]
+GNSS-SDR program ended.

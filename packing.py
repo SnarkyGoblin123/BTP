@@ -49,28 +49,72 @@ n = np.arange(len(compdata))
 compdata_shifted = np.multiply(compdata,np.exp(-1j*2*np.pi*f_d*n/4000000))
 
 # After performing the correlation in test.ipynb, we take the first maxima which comes out to be at 3200
-y = copy.deepcopy(compdata_shifted[120323923: 120323923 + 640000])
+corr_ind = 324143
+subfrm2 = 24324099
+subfrm3 = 48324055
+subfrm4 = 72324011
+subfrm6 = 120323923
+
+y1 = copy.deepcopy(compdata_shifted[corr_ind: corr_ind + 640000])
+y2 = copy.deepcopy(compdata_shifted[subfrm2: subfrm2 + 640000])
+y3 = copy.deepcopy(compdata_shifted[subfrm3: subfrm3 + 640000])
+y4 = copy.deepcopy(compdata_shifted[subfrm4: subfrm4 + 640000])
+y6 = copy.deepcopy(compdata_shifted[subfrm6: subfrm6 + 640000])
 x = v1
 
 # Least squares estimation for the eqn y = alp*x + noise
-alp_est = np.dot(x.T, y)/np.dot(x.T,x)
-alp_est = k * alp_est
+alpha = np.dot(x[:80000].T, y4[:80000])/(np.dot(x[:80000].T,x[:80000]))
+print(alpha)
+alp_est1 = np.dot(x.T, y1)/np.dot(x.T,x)
+alp_est1 = k * alp_est1
+
+alp_est2 = np.dot(x.T, y2)/np.dot(x.T,x)
+alp_est2 = k * alp_est2
+
+alp_est3 = np.dot(x.T, y3)/np.dot(x.T,x)
+alp_est3 = k * alp_est3
+
+alp_est4 = np.dot(x.T, y4)/np.dot(x.T,x)
+alp_est4 = k * alp_est4
+
+alp_est6 = np.dot(x.T, y6)/np.dot(x.T,x)
+alp_est6 = k * alp_est6
+
+print(alp_est4)
 
 # Subtract the estimated alp*x from y to remove satellite 23 component for atleast those 640000 samples
-yhat = y - alp_est*x
+yhat1 = y1 - alp_est1*x
+yhat2 = y2 - alp_est2*x
+yhat3 = y3 - alp_est3*x
+yhat4 = y4 - alp_est4*x
+yhat6 = y6 - alp_est6*x
+print(np.correlate(yhat3, x))
 
 
 # Perform inverse doppler shift to get the original signal
-yhat = np.multiply(yhat, np.exp(1j*2*np.pi*f_d*n[120323923: 120323923 + 640000]/4000000))
+yhat1 = np.multiply(yhat1, np.exp(1j*2*np.pi*f_d*n[corr_ind: corr_ind + 640000]/4000000))
+yhat2 = np.multiply(yhat2, np.exp(1j*2*np.pi*f_d*n[subfrm2: subfrm2 + 640000]/4000000))
+yhat3 = np.multiply(yhat3, np.exp(1j*2*np.pi*f_d*n[subfrm3: subfrm3 + 640000]/4000000))
+yhat4 = np.multiply(yhat4, np.exp(1j*2*np.pi*f_d*n[subfrm4: subfrm4 + 640000]/4000000))
+yhat6 = np.multiply(yhat6, np.exp(1j*2*np.pi*f_d*n[subfrm6: subfrm6 + 640000]/4000000))
+
+del n
+del compdata_shifted
+
 # print (np.array_equal(yhat, compdata[3200: 3200 + 640000]))
 # Update the complex data with the new data
 compdata_upd = copy.deepcopy(compdata)
 
 del compdata
-del n
-del compdata_shifted
 
-compdata_upd[120323923: 120323923 + 640000] = yhat
+
+
+# compdata_upd[corr_ind: corr_ind + 640000] = yhat1
+# compdata_upd[subfrm2: subfrm2 + 640000] = yhat2
+compdata_upd[subfrm3: subfrm3 + 640000] = yhat3
+compdata_upd[subfrm4: subfrm4 + 640000] = yhat4
+compdata_upd[subfrm6: subfrm6 + 640000] = yhat6
+
 
 
 # print (np.array_equal(compdata_upd, compdata))
@@ -110,6 +154,6 @@ with open(output_filepath, 'wb') as f:
     f.write(packed_data)
     b1 = bytearray(b'_')
     f.write(b1)
-
+    f.close()
 print(f"Packed IQ data written to {output_filepath}")
 

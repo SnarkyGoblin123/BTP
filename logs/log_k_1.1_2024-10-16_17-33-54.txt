@@ -1,0 +1,1206 @@
+Initializing GNSS-SDR v0.0.16 ... Please wait.
+Logging will be written at "/tmp"
+Use gnss-sdr --log_dir=/path/to/log to change that.
+RF Channels: 1
+Starting a TCP/IP server of RTCM messages on port 2101
+The TCP/IP server of RTCM messages is up and running. Accepting connections ...
+Processing file /home/joel/BTP/data/combined_data.dat, which contains 2399200000 samples (4798400000 bytes)
+GNSS signal recorded time to be processed: 299.85 [s]
+Current receiver time: 1 s
+Tracking of GPS L1 C/A signal started on channel 4 for satellite GPS PRN 05 (Block IIR-M)
+Tracking of GPS L1 C/A signal started on channel 0 for satellite GPS PRN 01 (Block IIF)
+Tracking of GPS L1 C/A signal started on channel 3 for satellite GPS PRN 10 (Block IIF)
+Tracking of GPS L1 C/A signal started on channel 1 for satellite GPS PRN 12 (Block IIR-M)
+Tracking of GPS L1 C/A signal started on channel 2 for satellite GPS PRN 13 (Block IIR)
+Current receiver time: 2 s
+Current receiver time: 3 s
+Current receiver time: 4 s
+Current receiver time: 5 s
+Current receiver time: 6 s
+Current receiver time: 7 s
+Current receiver time: 8 s
+Current receiver time: 9 s
+Current receiver time: 10 s
+Current receiver time: 11 s
+Current receiver time: 12 s
+Current receiver time: 13 s
+GPS L1 C/A tracking bit synchronization locked in channel 0 for satellite GPS PRN 01 (Block IIF)
+GPS L1 C/A tracking bit synchronization locked in channel 4 for satellite GPS PRN 05 (Block IIR-M)
+GPS L1 C/A tracking bit synchronization locked in channel 2 for satellite GPS PRN 13 (Block IIR)
+GPS L1 C/A tracking bit synchronization locked in channel 3 for satellite GPS PRN 10 (Block IIF)
+GPS L1 C/A tracking bit synchronization locked in channel 1 for satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 14 s
+Current receiver time: 15 s
+Current receiver time: 16 s
+Current receiver time: 17 s
+Current receiver time: 18 s
+Current receiver time: 19 s
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 01 (Block IIF)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 20 s
+Loss of lock in channel 0!
+Tracking of GPS L1 C/A signal started on channel 0 for satellite GPS PRN 15 (Block IIR-M)
+Current receiver time: 21 s
+Current receiver time: 22 s
+Current receiver time: 23 s
+Current receiver time: 24 s
+Current receiver time: 25 s
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 26 s
+Current receiver time: 27 s
+Current receiver time: 28 s
+Current receiver time: 29 s
+Current receiver time: 30 s
+Current receiver time: 31 s
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 32 s
+Current receiver time: 33 s
+Current receiver time: 34 s
+Current receiver time: 35 s
+GPS L1 C/A tracking bit synchronization locked in channel 0 for satellite GPS PRN 15 (Block IIR-M)
+Current receiver time: 36 s
+Current receiver time: 37 s
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 38 s
+Current receiver time: 39 s
+Current receiver time: 40 s
+Current receiver time: 41 s
+Current receiver time: 42 s
+Current receiver time: 43 s
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 44 s
+Current receiver time: 45 s
+Current receiver time: 46 s
+Current receiver time: 47 s
+Current receiver time: 48 s
+Current receiver time: 49 s
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 3 from satellite New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 50 s
+Current receiver time: 51 s
+Current receiver time: 52 s
+Current receiver time: 53 s
+Current receiver time: 54 s
+Current receiver time: 55 s
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 56 s
+Current receiver time: 57 s
+Current receiver time: 58 s
+Current receiver time: 59 s
+Current receiver time: 1 min 0 s
+Current receiver time: 1 min 1 s
+New GPS NAV message received in channel 0: subframe 5 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 2 s
+Current receiver time: 1 min 3 s
+Current receiver time: 1 min 4 s
+Current receiver time: 1 min 5 s
+Current receiver time: 1 min 6 s
+Current receiver time: 1 min 7 s
+New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 8 s
+Current receiver time: 1 min 9 s
+Current receiver time: 1 min 10 s
+Current receiver time: 1 min 11 s
+Current receiver time: 1 min 12 s
+Current receiver time: 1 min 13 s
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 14 s
+Current receiver time: 1 min 15 s
+Current receiver time: 1 min 16 s
+Current receiver time: 1 min 17 s
+Current receiver time: 1 min 18 s
+Current receiver time: 1 min 19 s
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 20 s
+Current receiver time: 1 min 21 s
+Current receiver time: 1 min 22 s
+Current receiver time: 1 min 23 s
+Current receiver time: 1 min 24 s
+Current receiver time: 1 min 25 s
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 26 s
+Current receiver time: 1 min 27 s
+Current receiver time: 1 min 28 s
+Current receiver time: 1 min 29 s
+Current receiver time: 1 min 30 s
+Current receiver time: 1 min 31 s
+New GPS NAV message received in channel 0: subframe 5 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 32 s
+Current receiver time: 1 min 33 s
+Current receiver time: 1 min 34 s
+Current receiver time: 1 min 35 s
+Current receiver time: 1 min 36 s
+Current receiver time: 1 min 37 s
+New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 38 s
+Current receiver time: 1 min 39 s
+Current receiver time: 1 min 40 s
+Current receiver time: 1 min 41 s
+Current receiver time: 1 min 42 s
+Current receiver time: 1 min 43 s
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 44 s
+Current receiver time: 1 min 45 s
+Current receiver time: 1 min 46 s
+Current receiver time: 1 min 47 s
+Current receiver time: 1 min 48 s
+Current receiver time: 1 min 49 s
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 50 s
+Current receiver time: 1 min 51 s
+Current receiver time: 1 min 52 s
+Current receiver time: 1 min 53 s
+Current receiver time: 1 min 54 s
+Current receiver time: 1 min 55 s
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 1 min 56 s
+Current receiver time: 1 min 57 s
+Current receiver time: 1 min 58 s
+Current receiver time: 1 min 59 s
+Current receiver time: 2 min 0 s
+Current receiver time: 2 min 1 s
+New GPS NAV message received in channel 0: subframe 5 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 2 min 2 s
+Current receiver time: 2 min 3 s
+Current receiver time: 2 min 4 s
+Current receiver time: 2 min 5 s
+Current receiver time: 2 min 6 s
+Current receiver time: 2 min 7 s
+New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 2 min 8 s
+Current receiver time: 2 min 9 s
+Current receiver time: 2 min 10 s
+Current receiver time: 2 min 11 s
+Current receiver time: 2 min 12 s
+Current receiver time: 2 min 13 s
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 12 (Block IIR-M)
+Current receiver time: 2 min 14 s
+Current receiver time: 2 min 15 s
+Current receiver time: 2 min 16 s
+Current receiver time: 2 min 17 s
+Current receiver time: 2 min 18 s
+First position fix at 2002-May-18 00:02:04.720000 UTC is Lat = 30.2865 [deg], Long = 120.033 [deg], Height= 83.6718 [m]
+Current receiver time: 2 min 19 s
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+The RINEX Navigation file header has been updated with UTC and IONO info.
+[1m[32mPosition at 2002-May-18 00:02:05.000000 UTC using 4 observations is Lat = 30.286512866 [deg], Long = 120.032674551 [deg], Height = 86.243 [m][0m
+[1m[32mVelocity: East: -0.079 [m/s], North: 0.027 [m/s], Up = 0.990 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:05.500000 UTC using 4 observations is Lat = 30.286494850 [deg], Long = 120.032654512 [deg], Height = 83.832 [m][0m
+[1m[32mVelocity: East: -0.415 [m/s], North: -0.940 [m/s], Up = 0.027 [m/s][0m
+Current receiver time: 2 min 20 s
+[1m[32mPosition at 2002-May-18 00:02:06.000000 UTC using 4 observations is Lat = 30.286506952 [deg], Long = 120.032662802 [deg], Height = 82.076 [m][0m
+[1m[32mVelocity: East: 0.194 [m/s], North: 0.120 [m/s], Up = -0.570 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:06.500000 UTC using 4 observations is Lat = 30.286512575 [deg], Long = 120.032672382 [deg], Height = 90.755 [m][0m
+[1m[32mVelocity: East: 0.102 [m/s], North: -0.528 [m/s], Up = 0.808 [m/s][0m
+Current receiver time: 2 min 21 s
+[1m[32mPosition at 2002-May-18 00:02:07.000000 UTC using 4 observations is Lat = 30.286516510 [deg], Long = 120.032664571 [deg], Height = 97.561 [m][0m
+[1m[32mVelocity: East: -0.403 [m/s], North: -0.458 [m/s], Up = 0.119 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:07.500000 UTC using 4 observations is Lat = 30.286507741 [deg], Long = 120.032666584 [deg], Height = 99.396 [m][0m
+[1m[32mVelocity: East: 0.139 [m/s], North: 0.762 [m/s], Up = -0.538 [m/s][0m
+Current receiver time: 2 min 22 s
+[1m[32mPosition at 2002-May-18 00:02:08.000000 UTC using 4 observations is Lat = 30.286526615 [deg], Long = 120.032687927 [deg], Height = 86.345 [m][0m
+[1m[32mVelocity: East: 0.083 [m/s], North: -0.103 [m/s], Up = -0.459 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:08.500000 UTC using 4 observations is Lat = 30.286500455 [deg], Long = 120.032662765 [deg], Height = 84.600 [m][0m
+[1m[32mVelocity: East: 0.026 [m/s], North: -0.770 [m/s], Up = 1.538 [m/s][0m
+Current receiver time: 2 min 23 s
+[1m[32mPosition at 2002-May-18 00:02:09.000000 UTC using 4 observations is Lat = 30.286493342 [deg], Long = 120.032661474 [deg], Height = 81.275 [m][0m
+[1m[32mVelocity: East: 0.324 [m/s], North: -0.033 [m/s], Up = -0.737 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:09.500000 UTC using 4 observations is Lat = 30.286528350 [deg], Long = 120.032677036 [deg], Height = 88.278 [m][0m
+[1m[32mVelocity: East: -0.246 [m/s], North: -0.062 [m/s], Up = 0.804 [m/s][0m
+Current receiver time: 2 min 24 s
+[1m[32mPosition at 2002-May-18 00:02:10.000000 UTC using 4 observations is Lat = 30.286533625 [deg], Long = 120.032685453 [deg], Height = 91.292 [m][0m
+[1m[32mVelocity: East: 0.055 [m/s], North: 0.529 [m/s], Up = -0.903 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:10.500000 UTC using 4 observations is Lat = 30.286522638 [deg], Long = 120.032674947 [deg], Height = 96.850 [m][0m
+[1m[32mVelocity: East: 0.384 [m/s], North: -0.064 [m/s], Up = -0.601 [m/s][0m
+Current receiver time: 2 min 25 s
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 0New GPS NAV message received in channel 5 (Block 2IIR-M: subframe 4 from satellite )
+GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:02:11.000000 UTC using 4 observations is Lat = 30.286504010 [deg], Long = 120.032665929 [deg], Height = 90.054 [m][0m
+[1m[32mVelocity: East: 0.081 [m/s], North: 0.245 [m/s], Up = -0.536 [m/s][0m
+Current receiver time: 2 min 26 s
+[1m[32mPosition at 2002-May-18 00:02:11.500000 UTC using 4 observations is Lat = 30.286512181 [deg], Long = 120.032667668 [deg], Height = 84.727 [m][0m
+[1m[32mVelocity: East: -0.747 [m/s], North: -0.636 [m/s], Up = 0.706 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:12.000000 UTC using 4 observations is Lat = 30.286515130 [deg], Long = 120.032670767 [deg], Height = 80.593 [m][0m
+[1m[32mVelocity: East: 0.077 [m/s], North: -0.063 [m/s], Up = 0.339 [m/s][0m
+Current receiver time: 2 min 27 s
+[1m[32mPosition at 2002-May-18 00:02:12.500000 UTC using 4 observations is Lat = 30.286501510 [deg], Long = 120.032670623 [deg], Height = 89.658 [m][0m
+[1m[32mVelocity: East: -0.122 [m/s], North: -0.060 [m/s], Up = -0.840 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:13.000000 UTC using 4 observations is Lat = 30.286530599 [deg], Long = 120.032669776 [deg], Height = 94.771 [m][0m
+[1m[32mVelocity: East: -0.059 [m/s], North: -0.297 [m/s], Up = 0.299 [m/s][0m
+Current receiver time: 2 min 28 s
+[1m[32mPosition at 2002-May-18 00:02:13.500000 UTC using 4 observations is Lat = 30.286495715 [deg], Long = 120.032664599 [deg], Height = 100.095 [m][0m
+[1m[32mVelocity: East: -0.114 [m/s], North: -0.246 [m/s], Up = 0.430 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:14.000000 UTC using 4 observations is Lat = 30.286516452 [deg], Long = 120.032666102 [deg], Height = 92.704 [m][0m
+[1m[32mVelocity: East: -0.177 [m/s], North: -0.497 [m/s], Up = 1.758 [m/s][0m
+Current receiver time: 2 min 29 s
+[1m[32mPosition at 2002-May-18 00:02:14.500000 UTC using 4 observations is Lat = 30.286497752 [deg], Long = 120.032662849 [deg], Height = 84.056 [m][0m
+[1m[32mVelocity: East: 0.488 [m/s], North: 0.696 [m/s], Up = 0.052 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:15.000000 UTC using 4 observations is Lat = 30.286501498 [deg], Long = 120.032657013 [deg], Height = 82.293 [m][0m
+[1m[32mVelocity: East: -0.639 [m/s], North: -0.748 [m/s], Up = 2.719 [m/s][0m
+Current receiver time: 2 min 30 s
+[1m[32mPosition at 2002-May-18 00:02:15.500000 UTC using 4 observations is Lat = 30.286533792 [deg], Long = 120.032685850 [deg], Height = 83.335 [m][0m
+[1m[32mVelocity: East: -0.850 [m/s], North: -0.775 [m/s], Up = 0.710 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:16.000000 UTC using 4 observations is Lat = 30.286491467 [deg], Long = 120.032652970 [deg], Height = 100.124 [m][0m
+[1m[32mVelocity: East: -0.203 [m/s], North: 0.538 [m/s], Up = -1.185 [m/s][0m
+Current receiver time: 2 min 31 s
+New GPS NAV message received in channel 0: subframe 5 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:02:16.500000 UTC using 4 observations is Lat = 30.286523528 [deg], Long = 120.032664625 [deg], Height = 98.881 [m][0m
+[1m[32mVelocity: East: -0.304 [m/s], North: -0.171 [m/s], Up = -0.463 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:17.000000 UTC using 4 observations is Lat = 30.286505607 [deg], Long = 120.032666467 [deg], Height = 92.676 [m][0m
+[1m[32mVelocity: East: 0.424 [m/s], North: 0.265 [m/s], Up = -0.326 [m/s][0m
+Current receiver time: 2 min 32 s
+[1m[32mPosition at 2002-May-18 00:02:17.500000 UTC using 4 observations is Lat = 30.286519162 [deg], Long = 120.032682176 [deg], Height = 82.784 [m][0m
+[1m[32mVelocity: East: -0.214 [m/s], North: -0.390 [m/s], Up = 1.665 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:18.000000 UTC using 4 observations is Lat = 30.286505533 [deg], Long = 120.032674352 [deg], Height = 79.187 [m][0m
+[1m[32mVelocity: East: 0.205 [m/s], North: 0.483 [m/s], Up = -0.298 [m/s][0m
+Current receiver time: 2 min 33 s
+[1m[32mPosition at 2002-May-18 00:02:18.500000 UTC using 4 observations is Lat = 30.286496903 [deg], Long = 120.032656944 [deg], Height = 87.852 [m][0m
+[1m[32mVelocity: East: -0.279 [m/s], North: -0.702 [m/s], Up = 0.573 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:19.000000 UTC using 4 observations is Lat = 30.286526153 [deg], Long = 120.032670348 [deg], Height = 93.730 [m][0m
+[1m[32mVelocity: East: 0.445 [m/s], North: 0.546 [m/s], Up = 0.127 [m/s][0m
+Current receiver time: 2 min 34 s
+[1m[32mPosition at 2002-May-18 00:02:19.500000 UTC using 4 observations is Lat = 30.286506490 [deg], Long = 120.032662244 [deg], Height = 99.411 [m][0m
+[1m[32mVelocity: East: -0.305 [m/s], North: -0.348 [m/s], Up = -0.597 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:20.000000 UTC using 4 observations is Lat = 30.286538184 [deg], Long = 120.032686865 [deg], Height = 89.901 [m][0m
+[1m[32mVelocity: East: 0.477 [m/s], North: 0.083 [m/s], Up = -0.943 [m/s][0m
+Current receiver time: 2 min 35 s
+[1m[32mPosition at 2002-May-18 00:02:20.500000 UTC using 4 observations is Lat = 30.286513234 [deg], Long = 120.032680693 [deg], Height = 82.067 [m][0m
+[1m[32mVelocity: East: -0.391 [m/s], North: -0.626 [m/s], Up = -0.639 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:21.000000 UTC using 4 observations is Lat = 30.286517244 [deg], Long = 120.032674979 [deg], Height = 80.186 [m][0m
+[1m[32mVelocity: East: 0.081 [m/s], North: 0.350 [m/s], Up = -0.540 [m/s][0m
+Current receiver time: 2 min 36 s
+[1m[32mPosition at 2002-May-18 00:02:21.500000 UTC using 4 observations is Lat = 30.286498298 [deg], Long = 120.032658560 [deg], Height = 88.540 [m][0m
+[1m[32mVelocity: East: 0.530 [m/s], North: 0.092 [m/s], Up = -0.418 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:22.000000 UTC using 4 observations is Lat = 30.286524093 [deg], Long = 120.032665752 [deg], Height = 92.870 [m][0m
+[1m[32mVelocity: East: 0.192 [m/s], North: 0.805 [m/s], Up = -0.106 [m/s][0m
+Current receiver time: 2 min 37 s
+New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:02:22.500000 UTC using 4 observations is Lat = 30.286540766 [deg], Long = 120.032690189 [deg], Height = 93.122 [m][0m
+[1m[32mVelocity: East: 0.027 [m/s], North: -0.039 [m/s], Up = 0.113 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:23.000000 UTC using 4 observations is Lat = 30.286508267 [deg], Long = 120.032678770 [deg], Height = 94.368 [m][0m
+[1m[32mVelocity: East: -0.895 [m/s], North: -0.527 [m/s], Up = 0.495 [m/s][0m
+Current receiver time: 2 min 38 s
+[1m[32mPosition at 2002-May-18 00:02:23.500000 UTC using 4 observations is Lat = 30.286529285 [deg], Long = 120.032691197 [deg], Height = 83.042 [m][0m
+[1m[32mVelocity: East: 0.587 [m/s], North: 0.889 [m/s], Up = -0.242 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:24.000000 UTC using 4 observations is Lat = 30.286457176 [deg], Long = 120.032641170 [deg], Height = 85.959 [m][0m
+[1m[32mVelocity: East: 0.608 [m/s], North: 0.321 [m/s], Up = -0.675 [m/s][0m
+Current receiver time: 2 min 39 s
+[1m[32mPosition at 2002-May-18 00:02:24.500000 UTC using 4 observations is Lat = 30.286500208 [deg], Long = 120.032653330 [deg], Height = 86.404 [m][0m
+[1m[32mVelocity: East: 0.658 [m/s], North: 0.470 [m/s], Up = -0.410 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:25.000000 UTC using 4 observations is Lat = 30.286502736 [deg], Long = 120.032655902 [deg], Height = 95.722 [m][0m
+[1m[32mVelocity: East: 0.488 [m/s], North: 0.732 [m/s], Up = -0.803 [m/s][0m
+Current receiver time: 2 min 40 s
+[1m[32mPosition at 2002-May-18 00:02:25.500000 UTC using 4 observations is Lat = 30.286557755 [deg], Long = 120.032696317 [deg], Height = 92.584 [m][0m
+[1m[32mVelocity: East: -0.515 [m/s], North: -0.524 [m/s], Up = 0.615 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:26.000000 UTC using 4 observations is Lat = 30.286520054 [deg], Long = 120.032678218 [deg], Height = 95.539 [m][0m
+[1m[32mVelocity: East: -0.021 [m/s], North: -0.353 [m/s], Up = 0.187 [m/s][0m
+Current receiver time: 2 min 41 s
+[1m[32mPosition at 2002-May-18 00:02:26.500000 UTC using 4 observations is Lat = 30.286492036 [deg], Long = 120.032664160 [deg], Height = 88.153 [m][0m
+[1m[32mVelocity: East: 0.151 [m/s], North: 0.307 [m/s], Up = 0.927 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:27.000000 UTC using 4 observations is Lat = 30.286509502 [deg], Long = 120.032664224 [deg], Height = 83.571 [m][0m
+[1m[32mVelocity: East: 0.329 [m/s], North: -0.255 [m/s], Up = 0.351 [m/s][0m
+Current receiver time: 2 min 42 s
+[1m[32mPosition at 2002-May-18 00:02:27.500000 UTC using 4 observations is Lat = 30.286509725 [deg], Long = 120.032668559 [deg], Height = 82.069 [m][0m
+[1m[32mVelocity: East: 0.144 [m/s], North: 0.114 [m/s], Up = 0.416 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:28.000000 UTC using 4 observations is Lat = 30.286521669 [deg], Long = 120.032671019 [deg], Height = 92.129 [m][0m
+[1m[32mVelocity: East: -0.033 [m/s], North: -0.391 [m/s], Up = 0.680 [m/s][0m
+Current receiver time: 2 min 43 s
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:02:28.500000 UTC using 4 observations is Lat = 30.286522698 [deg], Long = 120.032684091 [deg], Height = 95.086 [m][0m
+[1m[32mVelocity: East: -0.404 [m/s], North: -0.459 [m/s], Up = -0.412 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:29.000000 UTC using 4 observations is Lat = 30.286505797 [deg], Long = 120.032661079 [deg], Height = 98.677 [m][0m
+[1m[32mVelocity: East: 0.371 [m/s], North: 0.469 [m/s], Up = -0.786 [m/s][0m
+Current receiver time: 2 min 44 s
+[1m[32mPosition at 2002-May-18 00:02:29.500000 UTC using 4 observations is Lat = 30.286506679 [deg], Long = 120.032664872 [deg], Height = 88.897 [m][0m
+[1m[32mVelocity: East: 0.139 [m/s], North: 0.290 [m/s], Up = -0.201 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:30.000000 UTC using 4 observations is Lat = 30.286502153 [deg], Long = 120.032673514 [deg], Height = 82.337 [m][0m
+[1m[32mVelocity: East: 0.086 [m/s], North: 0.055 [m/s], Up = 0.406 [m/s][0m
+Current receiver time: 2 min 45 s
+[1m[32mPosition at 2002-May-18 00:02:30.500000 UTC using 4 observations is Lat = 30.286557602 [deg], Long = 120.032699012 [deg], Height = 73.985 [m][0m
+[1m[32mVelocity: East: 0.006 [m/s], North: 0.129 [m/s], Up = 0.543 [m/s][0m
+Current receiver time: 2 min 46 s
+[1m[32mPosition at 2002-May-18 00:02:31.000000 UTC using 4 observations is Lat = 30.286527527 [deg], Long = 120.032677208 [deg], Height = 88.971 [m][0m
+[1m[32mVelocity: East: 0.020 [m/s], North: 0.180 [m/s], Up = -0.944 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:31.500000 UTC using 4 observations is Lat = 30.286527659 [deg], Long = 120.032667306 [deg], Height = 96.744 [m][0m
+[1m[32mVelocity: East: -0.098 [m/s], North: 0.655 [m/s], Up = -0.904 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:32.000000 UTC using 4 observations is Lat = 30.286493911 [deg], Long = 120.032656558 [deg], Height = 98.886 [m][0m
+[1m[32mVelocity: East: -0.008 [m/s], North: -0.210 [m/s], Up = -0.301 [m/s][0m
+Current receiver time: 2 min 47 s
+[1m[32mPosition at 2002-May-18 00:02:32.500000 UTC using 4 observations is Lat = 30.286518857 [deg], Long = 120.032676203 [deg], Height = 87.264 [m][0m
+[1m[32mVelocity: East: 0.138 [m/s], North: -0.078 [m/s], Up = -0.330 [m/s][0m
+Current receiver time: 2 min 48 s
+[1m[32mPosition at 2002-May-18 00:02:33.000000 UTC using 4 observations is Lat = 30.286528441 [deg], Long = 120.032688331 [deg], Height = 76.068 [m][0m
+[1m[32mVelocity: East: 0.037 [m/s], North: -0.351 [m/s], Up = -0.168 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:33.500000 UTC using 4 observations is Lat = 30.286518451 [deg], Long = 120.032685641 [deg], Height = 77.461 [m][0m
+[1m[32mVelocity: East: -0.040 [m/s], North: 0.487 [m/s], Up = 0.753 [m/s][0m
+Current receiver time: 2 min 49 s
+[1m[32mPosition at 2002-May-18 00:02:34.000000 UTC using 4 observations is Lat = 30.286510557 [deg], Long = 120.032653968 [deg], Height = 94.949 [m][0m
+[1m[32mVelocity: East: 0.305 [m/s], North: 0.001 [m/s], Up = -0.063 [m/s][0m
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:02:34.500000 UTC using 4 observations is Lat = 30.286530455 [deg], Long = 120.032678527 [deg], Height = 91.118 [m][0m
+[1m[32mVelocity: East: 0.295 [m/s], North: -0.167 [m/s], Up = 0.403 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:35.000000 UTC using 4 observations is Lat = 30.286503430 [deg], Long = 120.032659715 [deg], Height = 99.382 [m][0m
+[1m[32mVelocity: East: -0.336 [m/s], North: -0.786 [m/s], Up = 0.602 [m/s][0m
+Current receiver time: 2 min 50 s
+[1m[32mPosition at 2002-May-18 00:02:35.500000 UTC using 4 observations is Lat = 30.286518013 [deg], Long = 120.032684041 [deg], Height = 85.481 [m][0m
+[1m[32mVelocity: East: -0.509 [m/s], North: -1.022 [m/s], Up = 0.813 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:36.000000 UTC using 4 observations is Lat = 30.286518278 [deg], Long = 120.032683773 [deg], Height = 79.231 [m][0m
+[1m[32mVelocity: East: 0.116 [m/s], North: -0.032 [m/s], Up = -0.881 [m/s][0m
+Current receiver time: 2 min 51 s
+[1m[32mPosition at 2002-May-18 00:02:36.500000 UTC using 4 observations is Lat = 30.286511951 [deg], Long = 120.032671590 [deg], Height = 83.838 [m][0m
+[1m[32mVelocity: East: 0.790 [m/s], North: 0.006 [m/s], Up = -0.541 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:37.000000 UTC using 4 observations is Lat = 30.286503334 [deg], Long = 120.032652297 [deg], Height = 93.737 [m][0m
+[1m[32mVelocity: East: 0.231 [m/s], North: 0.276 [m/s], Up = -0.507 [m/s][0m
+Current receiver time: 2 min 52 s
+[1m[32mPosition at 2002-May-18 00:02:37.500000 UTC using 4 observations is Lat = 30.286523499 [deg], Long = 120.032659916 [deg], Height = 98.652 [m][0m
+[1m[32mVelocity: East: 0.160 [m/s], North: -0.566 [m/s], Up = 0.337 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:38.000000 UTC using 4 observations is Lat = 30.286515116 [deg], Long = 120.032667789 [deg], Height = 95.586 [m][0m
+[1m[32mVelocity: East: -0.222 [m/s], North: -0.225 [m/s], Up = 0.337 [m/s][0m
+Current receiver time: 2 min 53 s
+[1m[32mPosition at 2002-May-18 00:02:38.500000 UTC using 4 observations is Lat = 30.286522141 [deg], Long = 120.032681344 [deg], Height = 86.252 [m][0m
+[1m[32mVelocity: East: -0.280 [m/s], North: -0.076 [m/s], Up = -0.228 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:39.000000 UTC using 4 observations is Lat = 30.286521091 [deg], Long = 120.032682120 [deg], Height = 79.700 [m][0m
+[1m[32mVelocity: East: -0.134 [m/s], North: -0.268 [m/s], Up = -0.041 [m/s][0m
+Current receiver time: 2 min 54 s
+[1m[32mPosition at 2002-May-18 00:02:39.500000 UTC using 4 observations is Lat = 30.286497126 [deg], Long = 120.032663506 [deg], Height = 84.175 [m][0m
+[1m[32mVelocity: East: -0.201 [m/s], North: -0.225 [m/s], Up = -0.730 [m/s][0m
+Current receiver time: 2 min 55 s
+[1m[32mPosition at 2002-May-18 00:02:40.000000 UTC using 4 observations is Lat = 30.286512057 [deg], Long = 120.032654573 [deg], Height = 94.022 [m][0m
+[1m[32mVelocity: East: 0.200 [m/s], North: 0.136 [m/s], Up = -0.025 [m/s][0m
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:02:40.500000 UTC using 4 observations is Lat = 30.286516387 [deg], Long = 120.032667590 [deg], Height = 95.986 [m][0m
+[1m[32mVelocity: East: -0.327 [m/s], North: -0.112 [m/s], Up = -0.294 [m/s][0m
+Current receiver time: 2 min 56 s
+[1m[32mPosition at 2002-May-18 00:02:41.000000 UTC using 4 observations is Lat = 30.286511959 [deg], Long = 120.032654742 [deg], Height = 98.684 [m][0m
+[1m[32mVelocity: East: -0.276 [m/s], North: 0.192 [m/s], Up = -0.224 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:41.500000 UTC using 4 observations is Lat = 30.286504660 [deg], Long = 120.032667892 [deg], Height = 89.437 [m][0m
+[1m[32mVelocity: East: 0.107 [m/s], North: -0.097 [m/s], Up = 0.419 [m/s][0m
+Current receiver time: 2 min 57 s
+[1m[32mPosition at 2002-May-18 00:02:42.000000 UTC using 4 observations is Lat = 30.286509161 [deg], Long = 120.032668807 [deg], Height = 84.748 [m][0m
+[1m[32mVelocity: East: -0.385 [m/s], North: 0.349 [m/s], Up = 0.970 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:42.500000 UTC using 4 observations is Lat = 30.286524579 [deg], Long = 120.032683064 [deg], Height = 80.164 [m][0m
+[1m[32mVelocity: East: 0.218 [m/s], North: 0.365 [m/s], Up = -0.029 [m/s][0m
+Current receiver time: 2 min 58 s
+[1m[32mPosition at 2002-May-18 00:02:43.000000 UTC using 4 observations is Lat = 30.286527024 [deg], Long = 120.032679227 [deg], Height = 87.279 [m][0m
+[1m[32mVelocity: East: 0.160 [m/s], North: -0.289 [m/s], Up = 0.196 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:43.500000 UTC using 4 observations is Lat = 30.286525737 [deg], Long = 120.032666449 [deg], Height = 94.776 [m][0m
+[1m[32mVelocity: East: 0.504 [m/s], North: 0.079 [m/s], Up = -0.340 [m/s][0m
+Current receiver time: 2 min 59 s
+[1m[32mPosition at 2002-May-18 00:02:44.000000 UTC using 4 observations is Lat = 30.286506498 [deg], Long = 120.032662469 [deg], Height = 98.406 [m][0m
+[1m[32mVelocity: East: 0.366 [m/s], North: -0.021 [m/s], Up = -0.048 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:44.500000 UTC using 4 observations is Lat = 30.286505583 [deg], Long = 120.032664811 [deg], Height = 89.414 [m][0m
+[1m[32mVelocity: East: 0.595 [m/s], North: 0.892 [m/s], Up = -0.050 [m/s][0m
+Current receiver time: 3 min 0 s
+[1m[32mPosition at 2002-May-18 00:02:45.000000 UTC using 4 observations is Lat = 30.286506065 [deg], Long = 120.032677709 [deg], Height = 82.722 [m][0m
+[1m[32mVelocity: East: -0.051 [m/s], North: -0.169 [m/s], Up = 0.071 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:45.500000 UTC using 4 observations is Lat = 30.286504702 [deg], Long = 120.032671475 [deg], Height = 84.866 [m][0m
+[1m[32mVelocity: East: -0.331 [m/s], North: 0.199 [m/s], Up = 0.041 [m/s][0m
+Current receiver time: 3 min 1 s
+New GPS NAV message received in channel 0: subframe 5 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:02:46.000000 UTC using 4 observations is Lat = 30.286537469 [deg], Long = 120.032683113 [deg], Height = 88.441 [m][0m
+[1m[32mVelocity: East: -0.249 [m/s], North: -0.312 [m/s], Up = 0.448 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:46.500000 UTC using 4 observations is Lat = 30.286512666 [deg], Long = 120.032661993 [deg], Height = 96.694 [m][0m
+[1m[32mVelocity: East: -0.092 [m/s], North: -0.200 [m/s], Up = 0.221 [m/s][0m
+Current receiver time: 3 min 2 s
+[1m[32mPosition at 2002-May-18 00:02:47.000000 UTC using 4 observations is Lat = 30.286518285 [deg], Long = 120.032660070 [deg], Height = 99.072 [m][0m
+[1m[32mVelocity: East: 0.553 [m/s], North: 0.381 [m/s], Up = -0.115 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:47.500000 UTC using 4 observations is Lat = 30.286504896 [deg], Long = 120.032667055 [deg], Height = 88.544 [m][0m
+[1m[32mVelocity: East: 0.268 [m/s], North: 0.196 [m/s], Up = 0.007 [m/s][0m
+Current receiver time: 3 min 3 s
+[1m[32mPosition at 2002-May-18 00:02:48.000000 UTC using 4 observations is Lat = 30.286509291 [deg], Long = 120.032677867 [deg], Height = 83.922 [m][0m
+[1m[32mVelocity: East: 0.401 [m/s], North: 0.260 [m/s], Up = -0.650 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:48.500000 UTC using 4 observations is Lat = 30.286516951 [deg], Long = 120.032687367 [deg], Height = 80.822 [m][0m
+[1m[32mVelocity: East: 0.669 [m/s], North: 0.287 [m/s], Up = 0.009 [m/s][0m
+Current receiver time: 3 min 4 s
+[1m[32mPosition at 2002-May-18 00:02:49.000000 UTC using 4 observations is Lat = 30.286529067 [deg], Long = 120.032683400 [deg], Height = 88.679 [m][0m
+[1m[32mVelocity: East: 0.323 [m/s], North: 0.333 [m/s], Up = -0.585 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:49.500000 UTC using 4 observations is Lat = 30.286501667 [deg], Long = 120.032644202 [deg], Height = 102.138 [m][0m
+[1m[32mVelocity: East: 0.067 [m/s], North: 0.069 [m/s], Up = -0.603 [m/s][0m
+Current receiver time: 3 min 5 s
+[1m[32mPosition at 2002-May-18 00:02:50.000000 UTC using 4 observations is Lat = 30.286526748 [deg], Long = 120.032674687 [deg], Height = 94.602 [m][0m
+[1m[32mVelocity: East: -0.625 [m/s], North: -0.216 [m/s], Up = 0.581 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:50.500000 UTC using 4 observations is Lat = 30.286493626 [deg], Long = 120.032650247 [deg], Height = 92.263 [m][0m
+[1m[32mVelocity: East: -0.616 [m/s], North: 0.169 [m/s], Up = -0.293 [m/s][0m
+Current receiver time: 3 min 6 s
+[1m[32mPosition at 2002-May-18 00:02:51.000000 UTC using 4 observations is Lat = 30.286505969 [deg], Long = 120.032680011 [deg], Height = 82.773 [m][0m
+[1m[32mVelocity: East: 0.218 [m/s], North: 0.361 [m/s], Up = -0.359 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:51.500000 UTC using 4 observations is Lat = 30.286530920 [deg], Long = 120.032688221 [deg], Height = 81.837 [m][0m
+[1m[32mVelocity: East: -0.470 [m/s], North: -0.251 [m/s], Up = 0.195 [m/s][0m
+Current receiver time: 3 min 7 s
+New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:02:52.000000 UTC using 4 observations is Lat = 30.286495182 [deg], Long = 120.032651724 [deg], Height = 99.177 [m][0m
+[1m[32mVelocity: East: -0.298 [m/s], North: -0.122 [m/s], Up = -0.028 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:52.500000 UTC using 4 observations is Lat = 30.286481606 [deg], Long = 120.032632897 [deg], Height = 104.272 [m][0m
+[1m[32mVelocity: East: 0.371 [m/s], North: 0.112 [m/s], Up = -0.215 [m/s][0m
+Current receiver time: 3 min 8 s
+[1m[32mPosition at 2002-May-18 00:02:53.000000 UTC using 4 observations is Lat = 30.286536863 [deg], Long = 120.032667643 [deg], Height = 93.427 [m][0m
+[1m[32mVelocity: East: -0.356 [m/s], North: -0.028 [m/s], Up = -0.394 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:53.500000 UTC using 4 observations is Lat = 30.286513440 [deg], Long = 120.032676704 [deg], Height = 85.291 [m][0m
+[1m[32mVelocity: East: -0.521 [m/s], North: 0.019 [m/s], Up = -0.361 [m/s][0m
+Current receiver time: 3 min 9 s
+[1m[32mPosition at 2002-May-18 00:02:54.000000 UTC using 4 observations is Lat = 30.286532705 [deg], Long = 120.032697088 [deg], Height = 77.603 [m][0m
+[1m[32mVelocity: East: -0.001 [m/s], North: -0.581 [m/s], Up = 1.593 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:54.500000 UTC using 4 observations is Lat = 30.286507915 [deg], Long = 120.032680357 [deg], Height = 79.878 [m][0m
+[1m[32mVelocity: East: -0.452 [m/s], North: 0.241 [m/s], Up = -0.958 [m/s][0m
+Current receiver time: 3 min 10 s
+[1m[32mPosition at 2002-May-18 00:02:55.000000 UTC using 4 observations is Lat = 30.286479863 [deg], Long = 120.032639821 [deg], Height = 100.879 [m][0m
+[1m[32mVelocity: East: -0.189 [m/s], North: -0.311 [m/s], Up = -0.190 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:55.500000 UTC using 4 observations is Lat = 30.286518515 [deg], Long = 120.032670004 [deg], Height = 94.782 [m][0m
+[1m[32mVelocity: East: -0.432 [m/s], North: 0.194 [m/s], Up = -0.041 [m/s][0m
+Current receiver time: 3 min 11 s
+[1m[32mPosition at 2002-May-18 00:02:56.000000 UTC using 4 observations is Lat = 30.286533712 [deg], Long = 120.032678535 [deg], Height = 92.000 [m][0m
+[1m[32mVelocity: East: -0.271 [m/s], North: -1.088 [m/s], Up = 1.391 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:56.500000 UTC using 4 observations is Lat = 30.286544844 [deg], Long = 120.032691617 [deg], Height = 78.490 [m][0m
+[1m[32mVelocity: East: -0.367 [m/s], North: -1.121 [m/s], Up = 1.828 [m/s][0m
+Current receiver time: 3 min 12 s
+[1m[32mPosition at 2002-May-18 00:02:57.000000 UTC using 4 observations is Lat = 30.286518033 [deg], Long = 120.032687156 [deg], Height = 78.843 [m][0m
+[1m[32mVelocity: East: -0.123 [m/s], North: -0.156 [m/s], Up = 0.747 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:57.500000 UTC using 4 observations is Lat = 30.286501926 [deg], Long = 120.032662525 [deg], Height = 86.671 [m][0m
+[1m[32mVelocity: East: 0.093 [m/s], North: -0.864 [m/s], Up = 0.965 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:58.000000 UTC using 4 observations is Lat = 30.286506487 [deg], Long = 120.032668054 [deg], Height = 95.984 [m][0m
+[1m[32mVelocity: East: 0.145 [m/s], North: -0.266 [m/s], Up = -0.011 [m/s][0m
+Current receiver time: 3 min 13 s
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:02:58.500000 UTC using 4 observations is Lat = 30.286503162 [deg], Long = 120.032650432 [deg], Height = 104.539 [m][0m
+[1m[32mVelocity: East: -0.473 [m/s], North: -0.611 [m/s], Up = 0.168 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:02:59.000000 UTC using 4 observations is Lat = 30.286570483 [deg], Long = 120.032701295 [deg], Height = 86.750 [m][0m
+[1m[32mVelocity: East: 0.471 [m/s], North: 0.695 [m/s], Up = -1.541 [m/s][0m
+Current receiver time: 3 min 14 s
+[1m[32mPosition at 2002-May-18 00:02:59.500000 UTC using 4 observations is Lat = 30.286515251 [deg], Long = 120.032679156 [deg], Height = 82.010 [m][0m
+[1m[32mVelocity: East: 0.131 [m/s], North: -0.180 [m/s], Up = -0.174 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:00.000000 UTC using 4 observations is Lat = 30.286506971 [deg], Long = 120.032671860 [deg], Height = 82.265 [m][0m
+[1m[32mVelocity: East: -0.016 [m/s], North: 0.160 [m/s], Up = 0.729 [m/s][0m
+Current receiver time: 3 min 15 s
+[1m[32mPosition at 2002-May-18 00:03:00.500000 UTC using 4 observations is Lat = 30.286515809 [deg], Long = 120.032688461 [deg], Height = 79.062 [m][0m
+[1m[32mVelocity: East: -0.243 [m/s], North: -0.723 [m/s], Up = 0.699 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:01.000000 UTC using 4 observations is Lat = 30.286523897 [deg], Long = 120.032669307 [deg], Height = 96.728 [m][0m
+[1m[32mVelocity: East: -0.293 [m/s], North: -0.610 [m/s], Up = 0.394 [m/s][0m
+Current receiver time: 3 min 16 s
+[1m[32mPosition at 2002-May-18 00:03:01.500000 UTC using 4 observations is Lat = 30.286522323 [deg], Long = 120.032678228 [deg], Height = 95.020 [m][0m
+[1m[32mVelocity: East: 0.315 [m/s], North: 0.504 [m/s], Up = -0.882 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:02.000000 UTC using 4 observations is Lat = 30.286517131 [deg], Long = 120.032669366 [deg], Height = 94.051 [m][0m
+[1m[32mVelocity: East: -0.227 [m/s], North: 0.019 [m/s], Up = 0.128 [m/s][0m
+Current receiver time: 3 min 17 s
+[1m[32mPosition at 2002-May-18 00:03:02.500000 UTC using 4 observations is Lat = 30.286525027 [deg], Long = 120.032664860 [deg], Height = 85.856 [m][0m
+[1m[32mVelocity: East: 0.109 [m/s], North: 0.575 [m/s], Up = -1.091 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:03.000000 UTC using 4 observations is Lat = 30.286487371 [deg], Long = 120.032658481 [deg], Height = 84.780 [m][0m
+[1m[32mVelocity: East: -0.102 [m/s], North: -0.102 [m/s], Up = -0.423 [m/s][0m
+Current receiver time: 3 min 18 s
+[1m[32mPosition at 2002-May-18 00:03:03.500000 UTC using 4 observations is Lat = 30.286515317 [deg], Long = 120.032674491 [deg], Height = 84.300 [m][0m
+[1m[32mVelocity: East: 0.159 [m/s], North: 0.224 [m/s], Up = -1.018 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:04.000000 UTC using 4 observations is Lat = 30.286504580 [deg], Long = 120.032663248 [deg], Height = 97.392 [m][0m
+[1m[32mVelocity: East: 0.112 [m/s], North: 0.534 [m/s], Up = 0.146 [m/s][0m
+Current receiver time: 3 min 19 s
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:04.500000 UTC using 4 observations is Lat = 30.286530756 [deg], Long = 120.032679506 [deg], Height = 94.716 [m][0m
+[1m[32mVelocity: East: -0.075 [m/s], North: 0.468 [m/s], Up = 0.461 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:05.000000 UTC using 4 observations is Lat = 30.286511167 [deg], Long = 120.032660846 [deg], Height = 96.850 [m][0m
+[1m[32mVelocity: East: -0.014 [m/s], North: -0.413 [m/s], Up = 0.587 [m/s][0m
+Current receiver time: 3 min 20 s
+[1m[32mPosition at 2002-May-18 00:03:05.500000 UTC using 4 observations is Lat = 30.286512225 [deg], Long = 120.032674052 [deg], Height = 82.636 [m][0m
+[1m[32mVelocity: East: -0.340 [m/s], North: -1.368 [m/s], Up = 0.377 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:06.000000 UTC using 4 observations is Lat = 30.286509509 [deg], Long = 120.032665089 [deg], Height = 83.189 [m][0m
+[1m[32mVelocity: East: -0.090 [m/s], North: -0.156 [m/s], Up = 0.302 [m/s][0m
+Current receiver time: 3 min 21 s
+[1m[32mPosition at 2002-May-18 00:03:06.500000 UTC using 4 observations is Lat = 30.286524516 [deg], Long = 120.032687605 [deg], Height = 83.469 [m][0m
+[1m[32mVelocity: East: 0.666 [m/s], North: 0.335 [m/s], Up = -1.345 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:07.000000 UTC using 4 observations is Lat = 30.286514108 [deg], Long = 120.032669137 [deg], Height = 95.374 [m][0m
+[1m[32mVelocity: East: -0.132 [m/s], North: 0.256 [m/s], Up = -0.336 [m/s][0m
+Current receiver time: 3 min 22 s
+[1m[32mPosition at 2002-May-18 00:03:07.500000 UTC using 4 observations is Lat = 30.286511356 [deg], Long = 120.032665265 [deg], Height = 98.734 [m][0m
+[1m[32mVelocity: East: -0.371 [m/s], North: 0.122 [m/s], Up = 0.193 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:08.000000 UTC using 4 observations is Lat = 30.286515860 [deg], Long = 120.032661142 [deg], Height = 97.622 [m][0m
+[1m[32mVelocity: East: 0.359 [m/s], North: 0.405 [m/s], Up = -0.770 [m/s][0m
+Current receiver time: 3 min 23 s
+[1m[32mPosition at 2002-May-18 00:03:08.500000 UTC using 4 observations is Lat = 30.286495616 [deg], Long = 120.032652363 [deg], Height = 87.464 [m][0m
+[1m[32mVelocity: East: -0.340 [m/s], North: -0.404 [m/s], Up = 0.639 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:09.000000 UTC using 4 observations is Lat = 30.286512915 [deg], Long = 120.032677709 [deg], Height = 78.945 [m][0m
+[1m[32mVelocity: East: -0.380 [m/s], North: 0.450 [m/s], Up = -1.204 [m/s][0m
+Current receiver time: 3 min 24 s
+[1m[32mPosition at 2002-May-18 00:03:09.500000 UTC using 4 observations is Lat = 30.286530069 [deg], Long = 120.032676118 [deg], Height = 84.715 [m][0m
+[1m[32mVelocity: East: -0.714 [m/s], North: -0.588 [m/s], Up = 0.831 [m/s][0m
+Current receiver time: 3 min 25 s
+[1m[32mPosition at 2002-May-18 00:03:10.000000 UTC using 4 observations is Lat = 30.286533571 [deg], Long = 120.032685248 [deg], Height = 94.547 [m][0m
+[1m[32mVelocity: East: 0.123 [m/s], North: 0.533 [m/s], Up = -0.394 [m/s][0m
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:10.500000 UTC using 4 observations is Lat = 30.286501332 [deg], Long = 120.032664499 [deg], Height = 99.016 [m][0m
+[1m[32mVelocity: East: 0.092 [m/s], North: -0.125 [m/s], Up = 0.749 [m/s][0m
+Current receiver time: 3 min 26 s
+[1m[32mPosition at 2002-May-18 00:03:11.000000 UTC using 4 observations is Lat = 30.286518962 [deg], Long = 120.032672471 [deg], Height = 93.191 [m][0m
+[1m[32mVelocity: East: 0.132 [m/s], North: 0.942 [m/s], Up = 0.390 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:11.500000 UTC using 4 observations is Lat = 30.286519670 [deg], Long = 120.032678359 [deg], Height = 83.569 [m][0m
+[1m[32mVelocity: East: 0.002 [m/s], North: 0.278 [m/s], Up = 0.575 [m/s][0m
+Current receiver time: 3 min 27 s
+[1m[32mPosition at 2002-May-18 00:03:12.000000 UTC using 4 observations is Lat = 30.286499333 [deg], Long = 120.032651932 [deg], Height = 84.723 [m][0m
+[1m[32mVelocity: East: -0.060 [m/s], North: -0.038 [m/s], Up = -1.216 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:12.500000 UTC using 4 observations is Lat = 30.286514237 [deg], Long = 120.032670365 [deg], Height = 86.678 [m][0m
+[1m[32mVelocity: East: -0.174 [m/s], North: 0.060 [m/s], Up = -0.904 [m/s][0m
+Current receiver time: 3 min 28 s
+[1m[32mPosition at 2002-May-18 00:03:13.000000 UTC using 4 observations is Lat = 30.286520158 [deg], Long = 120.032672467 [deg], Height = 97.162 [m][0m
+[1m[32mVelocity: East: -0.434 [m/s], North: -0.759 [m/s], Up = 0.894 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:13.500000 UTC using 4 observations is Lat = 30.286502827 [deg], Long = 120.032662855 [deg], Height = 99.107 [m][0m
+[1m[32mVelocity: East: 0.538 [m/s], North: -0.086 [m/s], Up = -0.860 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:14.000000 UTC using 4 observations is Lat = 30.286527265 [deg], Long = 120.032679718 [deg], Height = 91.582 [m][0m
+[1m[32mVelocity: East: -0.060 [m/s], North: 0.201 [m/s], Up = -0.508 [m/s][0m
+Current receiver time: 3 min 29 s
+[1m[32mPosition at 2002-May-18 00:03:14.500000 UTC using 4 observations is Lat = 30.286512633 [deg], Long = 120.032666758 [deg], Height = 84.124 [m][0m
+[1m[32mVelocity: East: 0.216 [m/s], North: 0.237 [m/s], Up = -0.111 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:15.000000 UTC using 4 observations is Lat = 30.286490010 [deg], Long = 120.032658020 [deg], Height = 83.743 [m][0m
+[1m[32mVelocity: East: -0.024 [m/s], North: -0.446 [m/s], Up = 0.603 [m/s][0m
+Current receiver time: 3 min 30 s
+[1m[32mPosition at 2002-May-18 00:03:15.500000 UTC using 4 observations is Lat = 30.286495548 [deg], Long = 120.032649148 [deg], Height = 92.750 [m][0m
+[1m[32mVelocity: East: -0.211 [m/s], North: -0.155 [m/s], Up = 0.257 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:16.000000 UTC using 4 observations is Lat = 30.286490395 [deg], Long = 120.032652892 [deg], Height = 98.821 [m][0m
+[1m[32mVelocity: East: -0.051 [m/s], North: 0.163 [m/s], Up = -1.070 [m/s][0m
+Current receiver time: 3 min 31 s
+New GPS NAV message received in channel 0: subframe 5 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:16.500000 UTC using 4 observations is Lat = 30.286516271 [deg], Long = 120.032671255 [deg], Height = 100.500 [m][0m
+[1m[32mVelocity: East: -0.044 [m/s], North: -0.075 [m/s], Up = -0.691 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:17.000000 UTC using 4 observations is Lat = 30.286498037 [deg], Long = 120.032654391 [deg], Height = 100.084 [m][0m
+[1m[32mVelocity: East: -0.147 [m/s], North: -0.072 [m/s], Up = 0.067 [m/s][0m
+Current receiver time: 3 min 32 s
+[1m[32mPosition at 2002-May-18 00:03:17.500000 UTC using 4 observations is Lat = 30.286522195 [deg], Long = 120.032683740 [deg], Height = 80.981 [m][0m
+[1m[32mVelocity: East: -0.392 [m/s], North: -0.281 [m/s], Up = -0.056 [m/s][0m
+Current receiver time: 3 min 33 s
+[1m[32mPosition at 2002-May-18 00:03:18.000000 UTC using 4 observations is Lat = 30.286495592 [deg], Long = 120.032646703 [deg], Height = 85.426 [m][0m
+[1m[32mVelocity: East: -0.040 [m/s], North: 0.088 [m/s], Up = 0.241 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:18.500000 UTC using 4 observations is Lat = 30.286508528 [deg], Long = 120.032669809 [deg], Height = 84.395 [m][0m
+[1m[32mVelocity: East: -0.752 [m/s], North: -0.780 [m/s], Up = 0.526 [m/s][0m
+Current receiver time: 3 min 34 s
+[1m[32mPosition at 2002-May-18 00:03:19.000000 UTC using 4 observations is Lat = 30.286500790 [deg], Long = 120.032649997 [deg], Height = 101.689 [m][0m
+[1m[32mVelocity: East: -0.322 [m/s], North: -0.542 [m/s], Up = 0.424 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:19.500000 UTC using 4 observations is Lat = 30.286522471 [deg], Long = 120.032681948 [deg], Height = 95.596 [m][0m
+[1m[32mVelocity: East: 0.167 [m/s], North: -0.186 [m/s], Up = 0.205 [m/s][0m
+Current receiver time: 3 min 35 s
+[1m[32mPosition at 2002-May-18 00:03:20.000000 UTC using 4 observations is Lat = 30.286523471 [deg], Long = 120.032678877 [deg], Height = 89.875 [m][0m
+[1m[32mVelocity: East: 0.359 [m/s], North: 0.462 [m/s], Up = -0.253 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:20.500000 UTC using 4 observations is Lat = 30.286512951 [deg], Long = 120.032671663 [deg], Height = 83.151 [m][0m
+[1m[32mVelocity: East: 0.044 [m/s], North: 0.468 [m/s], Up = -0.412 [m/s][0m
+Current receiver time: 3 min 36 s
+[1m[32mPosition at 2002-May-18 00:03:21.000000 UTC using 4 observations is Lat = 30.286492012 [deg], Long = 120.032662109 [deg], Height = 81.268 [m][0m
+[1m[32mVelocity: East: -0.437 [m/s], North: -0.557 [m/s], Up = -0.072 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:21.500000 UTC using 4 observations is Lat = 30.286537474 [deg], Long = 120.032688901 [deg], Height = 81.456 [m][0m
+[1m[32mVelocity: East: -0.245 [m/s], North: -0.606 [m/s], Up = 1.163 [m/s][0m
+Current receiver time: 3 min 37 s
+New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:22.000000 UTC using 4 observations is Lat = 30.286525646 [deg], Long = 120.032675212 [deg], Height = 90.037 [m][0m
+[1m[32mVelocity: East: 0.484 [m/s], North: 0.508 [m/s], Up = 1.081 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:22.500000 UTC using 4 observations is Lat = 30.286529209 [deg], Long = 120.032683433 [deg], Height = 93.988 [m][0m
+[1m[32mVelocity: East: 0.997 [m/s], North: 0.711 [m/s], Up = -1.619 [m/s][0m
+Current receiver time: 3 min 38 s
+[1m[32mPosition at 2002-May-18 00:03:23.000000 UTC using 4 observations is Lat = 30.286503758 [deg], Long = 120.032662736 [deg], Height = 93.217 [m][0m
+[1m[32mVelocity: East: -0.206 [m/s], North: 0.198 [m/s], Up = 0.939 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:23.500000 UTC using 4 observations is Lat = 30.286536937 [deg], Long = 120.032706225 [deg], Height = 71.511 [m][0m
+[1m[32mVelocity: East: 0.116 [m/s], North: -0.204 [m/s], Up = -0.183 [m/s][0m
+Current receiver time: 3 min 39 s
+[1m[32mPosition at 2002-May-18 00:03:24.000000 UTC using 4 observations is Lat = 30.286497276 [deg], Long = 120.032662014 [deg], Height = 87.529 [m][0m
+[1m[32mVelocity: East: -0.164 [m/s], North: -0.111 [m/s], Up = -0.084 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:24.500000 UTC using 4 observations is Lat = 30.286484522 [deg], Long = 120.032640695 [deg], Height = 99.291 [m][0m
+[1m[32mVelocity: East: -0.470 [m/s], North: -0.649 [m/s], Up = 1.479 [m/s][0m
+Current receiver time: 3 min 40 s
+[1m[32mPosition at 2002-May-18 00:03:25.000000 UTC using 4 observations is Lat = 30.286525238 [deg], Long = 120.032674863 [deg], Height = 95.342 [m][0m
+[1m[32mVelocity: East: 0.067 [m/s], North: 0.424 [m/s], Up = -1.320 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:25.500000 UTC using 4 observations is Lat = 30.286511698 [deg], Long = 120.032672880 [deg], Height = 96.703 [m][0m
+[1m[32mVelocity: East: -0.318 [m/s], North: 0.039 [m/s], Up = -1.239 [m/s][0m
+Current receiver time: 3 min 41 s
+[1m[32mPosition at 2002-May-18 00:03:26.000000 UTC using 4 observations is Lat = 30.286516511 [deg], Long = 120.032673703 [deg], Height = 90.495 [m][0m
+[1m[32mVelocity: East: -0.183 [m/s], North: -0.527 [m/s], Up = 0.311 [m/s][0m
+Current receiver time: 3 min 42 s
+[1m[32mPosition at 2002-May-18 00:03:26.500000 UTC using 4 observations is Lat = 30.286510346 [deg], Long = 120.032677300 [deg], Height = 82.896 [m][0m
+[1m[32mVelocity: East: -0.142 [m/s], North: -0.236 [m/s], Up = 0.089 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:27.000000 UTC using 4 observations is Lat = 30.286526185 [deg], Long = 120.032685203 [deg], Height = 77.641 [m][0m
+[1m[32mVelocity: East: -0.234 [m/s], North: -0.354 [m/s], Up = -0.161 [m/s][0m
+Current receiver time: 3 min 43 s
+[1m[32mPosition at 2002-May-18 00:03:27.500000 UTC using 4 observations is Lat = 30.286525024 [deg], Long = 120.032657305 [deg], Height = 96.219 [m][0m
+[1m[32mVelocity: East: 0.089 [m/s], North: -0.146 [m/s], Up = 0.309 [m/s][0m
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:28.000000 UTC using 4 observations is Lat = 30.286504633 [deg], Long = 120.032677535 [deg], Height = 89.806 [m][0m
+[1m[32mVelocity: East: -0.307 [m/s], North: 0.320 [m/s], Up = 1.095 [m/s][0m
+Current receiver time: 3 min 44 s
+[1m[32mPosition at 2002-May-18 00:03:28.500000 UTC using 4 observations is Lat = 30.286521151 [deg], Long = 120.032651640 [deg], Height = 101.638 [m][0m
+[1m[32mVelocity: East: -0.228 [m/s], North: -0.265 [m/s], Up = 0.943 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:29.000000 UTC using 4 observations is Lat = 30.286473448 [deg], Long = 120.032646658 [deg], Height = 97.643 [m][0m
+[1m[32mVelocity: East: 0.442 [m/s], North: -0.052 [m/s], Up = -0.458 [m/s][0m
+Current receiver time: 3 min 45 s
+[1m[32mPosition at 2002-May-18 00:03:29.500000 UTC using 4 observations is Lat = 30.286549344 [deg], Long = 120.032712247 [deg], Height = 72.649 [m][0m
+[1m[32mVelocity: East: -0.539 [m/s], North: -0.079 [m/s], Up = 0.967 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:30.000000 UTC using 4 observations is Lat = 30.286536884 [deg], Long = 120.032690702 [deg], Height = 77.288 [m][0m
+[1m[32mVelocity: East: 0.139 [m/s], North: -0.034 [m/s], Up = 0.018 [m/s][0m
+Current receiver time: 3 min 46 s
+[1m[32mPosition at 2002-May-18 00:03:30.500000 UTC using 4 observations is Lat = 30.286491579 [deg], Long = 120.032642987 [deg], Height = 99.935 [m][0m
+[1m[32mVelocity: East: 0.552 [m/s], North: 0.977 [m/s], Up = 0.197 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:31.000000 UTC using 4 observations is Lat = 30.286494900 [deg], Long = 120.032649735 [deg], Height = 99.623 [m][0m
+[1m[32mVelocity: East: -0.652 [m/s], North: -1.218 [m/s], Up = 0.855 [m/s][0m
+Current receiver time: 3 min 47 s
+[1m[32mPosition at 2002-May-18 00:03:31.500000 UTC using 4 observations is Lat = 30.286513243 [deg], Long = 120.032656602 [deg], Height = 98.801 [m][0m
+[1m[32mVelocity: East: 0.618 [m/s], North: 0.999 [m/s], Up = -0.185 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:32.000000 UTC using 4 observations is Lat = 30.286527153 [deg], Long = 120.032697388 [deg], Height = 79.702 [m][0m
+[1m[32mVelocity: East: 0.302 [m/s], North: -0.040 [m/s], Up = 0.969 [m/s][0m
+Current receiver time: 3 min 48 s
+[1m[32mPosition at 2002-May-18 00:03:32.500000 UTC using 4 observations is Lat = 30.286506224 [deg], Long = 120.032685473 [deg], Height = 79.985 [m][0m
+[1m[32mVelocity: East: 0.153 [m/s], North: -0.143 [m/s], Up = 0.225 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:33.000000 UTC using 4 observations is Lat = 30.286538139 [deg], Long = 120.032694249 [deg], Height = 81.312 [m][0m
+[1m[32mVelocity: East: -0.337 [m/s], North: -0.857 [m/s], Up = 0.981 [m/s][0m
+Current receiver time: 3 min 49 s
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:33.500000 UTC using 4 observations is Lat = 30.286521769 [deg], Long = 120.032664821 [deg], Height = 95.795 [m][0m
+[1m[32mVelocity: East: -0.583 [m/s], North: -0.566 [m/s], Up = -0.334 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:34.000000 UTC using 4 observations is Lat = 30.286504905 [deg], Long = 120.032657606 [deg], Height = 98.061 [m][0m
+[1m[32mVelocity: East: -0.111 [m/s], North: 0.089 [m/s], Up = 0.400 [m/s][0m
+Current receiver time: 3 min 50 s
+[1m[32mPosition at 2002-May-18 00:03:34.500000 UTC using 4 observations is Lat = 30.286531791 [deg], Long = 120.032671935 [deg], Height = 93.083 [m][0m
+[1m[32mVelocity: East: -0.402 [m/s], North: -0.580 [m/s], Up = 1.321 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:35.000000 UTC using 4 observations is Lat = 30.286518827 [deg], Long = 120.032683377 [deg], Height = 82.000 [m][0m
+[1m[32mVelocity: East: -0.267 [m/s], North: -0.866 [m/s], Up = 1.252 [m/s][0m
+Current receiver time: 3 min 51 s
+[1m[32mPosition at 2002-May-18 00:03:35.500000 UTC using 4 observations is Lat = 30.286498773 [deg], Long = 120.032668255 [deg], Height = 85.342 [m][0m
+[1m[32mVelocity: East: -0.292 [m/s], North: -0.551 [m/s], Up = -0.413 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:36.000000 UTC using 4 observations is Lat = 30.286513810 [deg], Long = 120.032654366 [deg], Height = 89.806 [m][0m
+[1m[32mVelocity: East: -0.529 [m/s], North: -0.492 [m/s], Up = 1.698 [m/s][0m
+Current receiver time: 3 min 52 s
+[1m[32mPosition at 2002-May-18 00:03:36.500000 UTC using 4 observations is Lat = 30.286501365 [deg], Long = 120.032665216 [deg], Height = 96.794 [m][0m
+[1m[32mVelocity: East: 0.106 [m/s], North: 0.088 [m/s], Up = -1.394 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:37.000000 UTC using 4 observations is Lat = 30.286501834 [deg], Long = 120.032647042 [deg], Height = 101.819 [m][0m
+[1m[32mVelocity: East: 0.200 [m/s], North: 0.338 [m/s], Up = -0.162 [m/s][0m
+Current receiver time: 3 min 53 s
+[1m[32mPosition at 2002-May-18 00:03:37.500000 UTC using 4 observations is Lat = 30.286534710 [deg], Long = 120.032678091 [deg], Height = 91.005 [m][0m
+[1m[32mVelocity: East: 0.122 [m/s], North: 0.056 [m/s], Up = 0.888 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:38.000000 UTC using 4 observations is Lat = 30.286478022 [deg], Long = 120.032675564 [deg], Height = 81.707 [m][0m
+[1m[32mVelocity: East: 0.248 [m/s], North: 0.309 [m/s], Up = -1.727 [m/s][0m
+Current receiver time: 3 min 54 s
+[1m[32mPosition at 2002-May-18 00:03:38.500000 UTC using 4 observations is Lat = 30.286538159 [deg], Long = 120.032692264 [deg], Height = 76.957 [m][0m
+[1m[32mVelocity: East: -0.250 [m/s], North: 0.342 [m/s], Up = -0.078 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:39.000000 UTC using 4 observations is Lat = 30.286486413 [deg], Long = 120.032657633 [deg], Height = 92.473 [m][0m
+[1m[32mVelocity: East: -0.894 [m/s], North: -0.567 [m/s], Up = -0.061 [m/s][0m
+Current receiver time: 3 min 55 s
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:39.500000 UTC using 4 observations is Lat = 30.286525212 [deg], Long = 120.032675409 [deg], Height = 95.254 [m][0m
+[1m[32mVelocity: East: 0.365 [m/s], North: 0.203 [m/s], Up = -0.696 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:40.000000 UTC using 4 observations is Lat = 30.286529151 [deg], Long = 120.032671630 [deg], Height = 98.365 [m][0m
+[1m[32mVelocity: East: 0.037 [m/s], North: -0.198 [m/s], Up = 0.124 [m/s][0m
+Current receiver time: 3 min 56 s
+[1m[32mPosition at 2002-May-18 00:03:40.500000 UTC using 4 observations is Lat = 30.286535857 [deg], Long = 120.032677760 [deg], Height = 90.752 [m][0m
+[1m[32mVelocity: East: -0.000 [m/s], North: 0.329 [m/s], Up = 0.354 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:41.000000 UTC using 4 observations is Lat = 30.286525167 [deg], Long = 120.032676618 [deg], Height = 80.121 [m][0m
+[1m[32mVelocity: East: -0.103 [m/s], North: 0.641 [m/s], Up = -0.864 [m/s][0m
+Current receiver time: 3 min 57 s
+[1m[32mPosition at 2002-May-18 00:03:41.500000 UTC using 4 observations is Lat = 30.286488936 [deg], Long = 120.032653693 [deg], Height = 88.753 [m][0m
+[1m[32mVelocity: East: -0.137 [m/s], North: 0.852 [m/s], Up = 0.895 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:42.000000 UTC using 4 observations is Lat = 30.286556412 [deg], Long = 120.032677194 [deg], Height = 90.400 [m][0m
+[1m[32mVelocity: East: -0.339 [m/s], North: -0.069 [m/s], Up = 0.192 [m/s][0m
+Current receiver time: 3 min 58 s
+[1m[32mPosition at 2002-May-18 00:03:42.500000 UTC using 4 observations is Lat = 30.286502775 [deg], Long = 120.032695044 [deg], Height = 89.344 [m][0m
+[1m[32mVelocity: East: -0.263 [m/s], North: -0.006 [m/s], Up = 1.466 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:43.000000 UTC using 4 observations is Lat = 30.286530505 [deg], Long = 120.032669514 [deg], Height = 97.687 [m][0m
+[1m[32mVelocity: East: -0.684 [m/s], North: -0.296 [m/s], Up = 0.511 [m/s][0m
+Current receiver time: 3 min 59 s
+[1m[32mPosition at 2002-May-18 00:03:43.500000 UTC using 4 observations is Lat = 30.286489326 [deg], Long = 120.032645369 [deg], Height = 97.235 [m][0m
+[1m[32mVelocity: East: -0.005 [m/s], North: 0.332 [m/s], Up = -0.507 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:44.000000 UTC using 4 observations is Lat = 30.286497686 [deg], Long = 120.032662420 [deg], Height = 82.380 [m][0m
+[1m[32mVelocity: East: -0.310 [m/s], North: -0.650 [m/s], Up = 1.098 [m/s][0m
+Current receiver time: 4 min 0 s
+[1m[32mPosition at 2002-May-18 00:03:44.500000 UTC using 4 observations is Lat = 30.286529538 [deg], Long = 120.032683241 [deg], Height = 78.281 [m][0m
+[1m[32mVelocity: East: -0.192 [m/s], North: 0.426 [m/s], Up = -0.167 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:45.000000 UTC using 4 observations is Lat = 30.286521467 [deg], Long = 120.032683723 [deg], Height = 91.398 [m][0m
+[1m[32mVelocity: East: 0.510 [m/s], North: 0.942 [m/s], Up = -1.000 [m/s][0m
+Current receiver time: 4 min 1 s
+New GPS NAV message received in channel 0: subframe 5 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:45.500000 UTC using 4 observations is Lat = 30.286549260 [deg], Long = 120.032694069 [deg], Height = 88.337 [m][0m
+[1m[32mVelocity: East: 0.094 [m/s], North: -0.147 [m/s], Up = -0.353 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:46.000000 UTC using 4 observations is Lat = 30.286527013 [deg], Long = 120.032682902 [deg], Height = 91.448 [m][0m
+[1m[32mVelocity: East: -0.022 [m/s], North: -0.216 [m/s], Up = 0.304 [m/s][0m
+Current receiver time: 4 min 2 s
+[1m[32mPosition at 2002-May-18 00:03:46.500000 UTC using 4 observations is Lat = 30.286529169 [deg], Long = 120.032679234 [deg], Height = 81.566 [m][0m
+[1m[32mVelocity: East: 0.277 [m/s], North: 0.059 [m/s], Up = 0.917 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:47.000000 UTC using 4 observations is Lat = 30.286470178 [deg], Long = 120.032638085 [deg], Height = 89.073 [m][0m
+[1m[32mVelocity: East: 0.022 [m/s], North: 0.020 [m/s], Up = 0.416 [m/s][0m
+Current receiver time: 4 min 3 s
+[1m[32mPosition at 2002-May-18 00:03:47.500000 UTC using 4 observations is Lat = 30.286500369 [deg], Long = 120.032668480 [deg], Height = 83.940 [m][0m
+[1m[32mVelocity: East: 0.039 [m/s], North: -0.074 [m/s], Up = -0.148 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:48.000000 UTC using 4 observations is Lat = 30.286519491 [deg], Long = 120.032683283 [deg], Height = 92.415 [m][0m
+[1m[32mVelocity: East: -0.258 [m/s], North: 0.050 [m/s], Up = 0.836 [m/s][0m
+Current receiver time: 4 min 4 s
+[1m[32mPosition at 2002-May-18 00:03:48.500000 UTC using 4 observations is Lat = 30.286531541 [deg], Long = 120.032680144 [deg], Height = 98.824 [m][0m
+[1m[32mVelocity: East: 0.300 [m/s], North: 0.563 [m/s], Up = -0.132 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:49.000000 UTC using 4 observations is Lat = 30.286504055 [deg], Long = 120.032655350 [deg], Height = 99.610 [m][0m
+[1m[32mVelocity: East: -0.039 [m/s], North: -0.733 [m/s], Up = 0.628 [m/s][0m
+Current receiver time: 4 min 5 s
+[1m[32mPosition at 2002-May-18 00:03:49.500000 UTC using 4 observations is Lat = 30.286510853 [deg], Long = 120.032672470 [deg], Height = 83.148 [m][0m
+[1m[32mVelocity: East: 0.304 [m/s], North: 0.145 [m/s], Up = -0.005 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:50.000000 UTC using 4 observations is Lat = 30.286510621 [deg], Long = 120.032669567 [deg], Height = 78.723 [m][0m
+[1m[32mVelocity: East: -0.387 [m/s], North: -0.426 [m/s], Up = 0.898 [m/s][0m
+Current receiver time: 4 min 6 s
+[1m[32mPosition at 2002-May-18 00:03:50.500000 UTC using 4 observations is Lat = 30.286528575 [deg], Long = 120.032679068 [deg], Height = 82.755 [m][0m
+[1m[32mVelocity: East: 0.185 [m/s], North: 0.011 [m/s], Up = -1.128 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:51.000000 UTC using 4 observations is Lat = 30.286503900 [deg], Long = 120.032666272 [deg], Height = 98.300 [m][0m
+[1m[32mVelocity: East: 0.454 [m/s], North: 0.387 [m/s], Up = -0.615 [m/s][0m
+Current receiver time: 4 min 7 s
+New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:51.500000 UTC using 4 observations is Lat = 30.286504287 [deg], Long = 120.032668230 [deg], Height = 98.536 [m][0m
+[1m[32mVelocity: East: 0.083 [m/s], North: 0.485 [m/s], Up = 0.177 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:52.000000 UTC using 4 observations is Lat = 30.286527990 [deg], Long = 120.032680336 [deg], Height = 91.455 [m][0m
+[1m[32mVelocity: East: 0.077 [m/s], North: -0.515 [m/s], Up = 0.879 [m/s][0m
+Current receiver time: 4 min 8 s
+[1m[32mPosition at 2002-May-18 00:03:52.500000 UTC using 4 observations is Lat = 30.286535094 [deg], Long = 120.032688613 [deg], Height = 77.702 [m][0m
+[1m[32mVelocity: East: 0.015 [m/s], North: -0.147 [m/s], Up = 0.123 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:53.000000 UTC using 4 observations is Lat = 30.286519754 [deg], Long = 120.032679079 [deg], Height = 77.797 [m][0m
+[1m[32mVelocity: East: -0.071 [m/s], North: 0.115 [m/s], Up = -0.535 [m/s][0m
+Current receiver time: 4 min 9 s
+[1m[32mPosition at 2002-May-18 00:03:53.500000 UTC using 4 observations is Lat = 30.286525067 [deg], Long = 120.032684008 [deg], Height = 81.843 [m][0m
+[1m[32mVelocity: East: -0.157 [m/s], North: 0.037 [m/s], Up = -1.227 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:54.000000 UTC using 4 observations is Lat = 30.286510638 [deg], Long = 120.032660148 [deg], Height = 98.394 [m][0m
+[1m[32mVelocity: East: 0.089 [m/s], North: 0.023 [m/s], Up = -0.211 [m/s][0m
+Current receiver time: 4 min 10 s
+[1m[32mPosition at 2002-May-18 00:03:54.500000 UTC using 4 observations is Lat = 30.286500050 [deg], Long = 120.032666640 [deg], Height = 98.858 [m][0m
+[1m[32mVelocity: East: 0.059 [m/s], North: -0.169 [m/s], Up = -0.581 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:55.000000 UTC using 4 observations is Lat = 30.286485458 [deg], Long = 120.032661393 [deg], Height = 95.914 [m][0m
+[1m[32mVelocity: East: -0.650 [m/s], North: -1.098 [m/s], Up = -0.240 [m/s][0m
+Current receiver time: 4 min 11 s
+[1m[32mPosition at 2002-May-18 00:03:55.500000 UTC using 4 observations is Lat = 30.286497245 [deg], Long = 120.032673777 [deg], Height = 81.574 [m][0m
+[1m[32mVelocity: East: 0.417 [m/s], North: 0.317 [m/s], Up = -0.125 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:56.000000 UTC using 4 observations is Lat = 30.286503724 [deg], Long = 120.032668582 [deg], Height = 82.504 [m][0m
+[1m[32mVelocity: East: 0.180 [m/s], North: 0.465 [m/s], Up = -0.227 [m/s][0m
+Current receiver time: 4 min 12 s
+[1m[32mPosition at 2002-May-18 00:03:56.500000 UTC using 4 observations is Lat = 30.286503594 [deg], Long = 120.032644646 [deg], Height = 96.691 [m][0m
+[1m[32mVelocity: East: -0.010 [m/s], North: 0.140 [m/s], Up = -0.951 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:57.000000 UTC using 4 observations is Lat = 30.286486251 [deg], Long = 120.032649923 [deg], Height = 100.873 [m][0m
+[1m[32mVelocity: East: 0.573 [m/s], North: 0.021 [m/s], Up = 0.629 [m/s][0m
+Current receiver time: 4 min 13 s
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:03:57.500000 UTC using 4 observations is Lat = 30.286537260 [deg], Long = 120.032684810 [deg], Height = 93.220 [m][0m
+[1m[32mVelocity: East: 0.607 [m/s], North: 0.511 [m/s], Up = -0.179 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:58.000000 UTC using 4 observations is Lat = 30.286511411 [deg], Long = 120.032679593 [deg], Height = 86.769 [m][0m
+[1m[32mVelocity: East: -0.870 [m/s], North: 0.332 [m/s], Up = -1.168 [m/s][0m
+Current receiver time: 4 min 14 s
+[1m[32mPosition at 2002-May-18 00:03:58.500000 UTC using 4 observations is Lat = 30.286502274 [deg], Long = 120.032673402 [deg], Height = 83.626 [m][0m
+[1m[32mVelocity: East: -0.158 [m/s], North: 0.788 [m/s], Up = -0.745 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:03:59.000000 UTC using 4 observations is Lat = 30.286516765 [deg], Long = 120.032674647 [deg], Height = 82.407 [m][0m
+[1m[32mVelocity: East: -0.438 [m/s], North: -0.826 [m/s], Up = 1.025 [m/s][0m
+Current receiver time: 4 min 15 s
+[1m[32mPosition at 2002-May-18 00:03:59.500000 UTC using 4 observations is Lat = 30.286495213 [deg], Long = 120.032657868 [deg], Height = 91.550 [m][0m
+[1m[32mVelocity: East: -0.194 [m/s], North: 0.185 [m/s], Up = -0.044 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:00.000000 UTC using 4 observations is Lat = 30.286529579 [deg], Long = 120.032668500 [deg], Height = 96.590 [m][0m
+[1m[32mVelocity: East: -0.605 [m/s], North: -0.355 [m/s], Up = 0.008 [m/s][0m
+Current receiver time: 4 min 16 s
+[1m[32mPosition at 2002-May-18 00:04:00.500000 UTC using 4 observations is Lat = 30.286518693 [deg], Long = 120.032672253 [deg], Height = 97.036 [m][0m
+[1m[32mVelocity: East: -0.047 [m/s], North: 0.082 [m/s], Up = -0.115 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:01.000000 UTC using 4 observations is Lat = 30.286510377 [deg], Long = 120.032677076 [deg], Height = 88.296 [m][0m
+[1m[32mVelocity: East: 0.214 [m/s], North: -0.041 [m/s], Up = 0.770 [m/s][0m
+Current receiver time: 4 min 17 s
+[1m[32mPosition at 2002-May-18 00:04:01.500000 UTC using 4 observations is Lat = 30.286502050 [deg], Long = 120.032671050 [deg], Height = 81.795 [m][0m
+[1m[32mVelocity: East: 0.287 [m/s], North: 0.065 [m/s], Up = 0.254 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:02.000000 UTC using 4 observations is Lat = 30.286505561 [deg], Long = 120.032666885 [deg], Height = 85.427 [m][0m
+[1m[32mVelocity: East: -0.081 [m/s], North: 0.089 [m/s], Up = 0.511 [m/s][0m
+Current receiver time: 4 min 18 s
+[1m[32mPosition at 2002-May-18 00:04:02.500000 UTC using 4 observations is Lat = 30.286533347 [deg], Long = 120.032665500 [deg], Height = 94.801 [m][0m
+[1m[32mVelocity: East: 0.801 [m/s], North: 0.681 [m/s], Up = -0.306 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:03.000000 UTC using 4 observations is Lat = 30.286558084 [deg], Long = 120.032697486 [deg], Height = 85.870 [m][0m
+[1m[32mVelocity: East: 0.288 [m/s], North: -0.162 [m/s], Up = 0.077 [m/s][0m
+Current receiver time: 4 min 19 s
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:04:03.500000 UTC using 4 observations is Lat = 30.286499499 [deg], Long = 120.032675706 [deg], Height = 91.721 [m][0m
+[1m[32mVelocity: East: 0.294 [m/s], North: -0.013 [m/s], Up = 0.077 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:04.000000 UTC using 4 observations is Lat = 30.286494271 [deg], Long = 120.032662916 [deg], Height = 86.971 [m][0m
+[1m[32mVelocity: East: 0.108 [m/s], North: 0.919 [m/s], Up = 0.646 [m/s][0m
+Current receiver time: 4 min 20 s
+[1m[32mPosition at 2002-May-18 00:04:04.500000 UTC using 4 observations is Lat = 30.286469803 [deg], Long = 120.032656281 [deg], Height = 85.636 [m][0m
+[1m[32mVelocity: East: 0.163 [m/s], North: -0.199 [m/s], Up = 1.598 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:05.000000 UTC using 4 observations is Lat = 30.286515968 [deg], Long = 120.032660277 [deg], Height = 92.137 [m][0m
+[1m[32mVelocity: East: -0.102 [m/s], North: 0.213 [m/s], Up = -0.322 [m/s][0m
+Current receiver time: 4 min 21 s
+[1m[32mPosition at 2002-May-18 00:04:05.500000 UTC using 4 observations is Lat = 30.286515086 [deg], Long = 120.032674136 [deg], Height = 92.541 [m][0m
+[1m[32mVelocity: East: -0.032 [m/s], North: -0.741 [m/s], Up = 0.772 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:06.000000 UTC using 4 observations is Lat = 30.286533898 [deg], Long = 120.032674371 [deg], Height = 93.719 [m][0m
+[1m[32mVelocity: East: -0.001 [m/s], North: -0.016 [m/s], Up = 0.818 [m/s][0m
+Current receiver time: 4 min 22 s
+[1m[32mPosition at 2002-May-18 00:04:06.500000 UTC using 4 observations is Lat = 30.286507141 [deg], Long = 120.032664110 [deg], Height = 92.573 [m][0m
+[1m[32mVelocity: East: 0.150 [m/s], North: 0.044 [m/s], Up = -0.549 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:07.000000 UTC using 4 observations is Lat = 30.286527621 [deg], Long = 120.032683957 [deg], Height = 83.611 [m][0m
+[1m[32mVelocity: East: 0.039 [m/s], North: -0.008 [m/s], Up = -0.590 [m/s][0m
+Current receiver time: 4 min 23 s
+[1m[32mPosition at 2002-May-18 00:04:07.500000 UTC using 4 observations is Lat = 30.286525701 [deg], Long = 120.032671118 [deg], Height = 84.494 [m][0m
+[1m[32mVelocity: East: -0.559 [m/s], North: -0.451 [m/s], Up = 1.015 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:08.000000 UTC using 4 observations is Lat = 30.286525279 [deg], Long = 120.032693978 [deg], Height = 86.054 [m][0m
+[1m[32mVelocity: East: 0.475 [m/s], North: 0.089 [m/s], Up = -0.093 [m/s][0m
+Current receiver time: 4 min 24 s
+[1m[32mPosition at 2002-May-18 00:04:08.500000 UTC using 4 observations is Lat = 30.286524615 [deg], Long = 120.032681915 [deg], Height = 92.389 [m][0m
+[1m[32mVelocity: East: -0.089 [m/s], North: -0.441 [m/s], Up = 0.235 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:09.000000 UTC using 4 observations is Lat = 30.286498064 [deg], Long = 120.032654044 [deg], Height = 98.539 [m][0m
+[1m[32mVelocity: East: 0.023 [m/s], North: 0.167 [m/s], Up = 0.106 [m/s][0m
+Current receiver time: 4 min 25 s
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:04:09.500000 UTC using 4 observations is Lat = 30.286498936 [deg], Long = 120.032659700 [deg], Height = 89.576 [m][0m
+[1m[32mVelocity: East: 0.248 [m/s], North: 0.595 [m/s], Up = -1.063 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:10.000000 UTC using 4 observations is Lat = 30.286516275 [deg], Long = 120.032679342 [deg], Height = 82.059 [m][0m
+[1m[32mVelocity: East: -0.122 [m/s], North: 0.283 [m/s], Up = 0.223 [m/s][0m
+Current receiver time: 4 min 26 s
+[1m[32mPosition at 2002-May-18 00:04:10.500000 UTC using 4 observations is Lat = 30.286512195 [deg], Long = 120.032683945 [deg], Height = 81.647 [m][0m
+[1m[32mVelocity: East: -0.199 [m/s], North: -0.602 [m/s], Up = 0.544 [m/s][0m
+Current receiver time: 4 min 27 s
+[1m[32mPosition at 2002-May-18 00:04:11.000000 UTC using 4 observations is Lat = 30.286524497 [deg], Long = 120.032677930 [deg], Height = 91.775 [m][0m
+[1m[32mVelocity: East: -0.147 [m/s], North: 0.269 [m/s], Up = -0.137 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:11.500000 UTC using 4 observations is Lat = 30.286502576 [deg], Long = 120.032663949 [deg], Height = 98.882 [m][0m
+[1m[32mVelocity: East: -0.016 [m/s], North: 0.116 [m/s], Up = 0.261 [m/s][0m
+Current receiver time: 4 min 28 s
+[1m[32mPosition at 2002-May-18 00:04:12.000000 UTC using 4 observations is Lat = 30.286498794 [deg], Long = 120.032659315 [deg], Height = 94.233 [m][0m
+[1m[32mVelocity: East: 0.200 [m/s], North: -0.044 [m/s], Up = -0.108 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:12.500000 UTC using 4 observations is Lat = 30.286503523 [deg], Long = 120.032658784 [deg], Height = 88.654 [m][0m
+[1m[32mVelocity: East: 0.163 [m/s], North: 0.741 [m/s], Up = -0.036 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:13.000000 UTC using 4 observations is Lat = 30.286500975 [deg], Long = 120.032659075 [deg], Height = 85.444 [m][0m
+[1m[32mVelocity: East: -0.308 [m/s], North: -0.391 [m/s], Up = -0.331 [m/s][0m
+Current receiver time: 4 min 29 s
+[1m[32mPosition at 2002-May-18 00:04:13.500000 UTC using 4 observations is Lat = 30.286525725 [deg], Long = 120.032680904 [deg], Height = 84.348 [m][0m
+[1m[32mVelocity: East: -0.374 [m/s], North: -0.289 [m/s], Up = 0.362 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:14.000000 UTC using 4 observations is Lat = 30.286504603 [deg], Long = 120.032665606 [deg], Height = 97.991 [m][0m
+[1m[32mVelocity: East: -0.355 [m/s], North: 0.093 [m/s], Up = 0.875 [m/s][0m
+Current receiver time: 4 min 30 s
+[1m[32mPosition at 2002-May-18 00:04:14.500000 UTC using 4 observations is Lat = 30.286497744 [deg], Long = 120.032655188 [deg], Height = 101.456 [m][0m
+[1m[32mVelocity: East: 0.560 [m/s], North: 0.632 [m/s], Up = 0.100 [m/s][0m
+Current receiver time: 4 min 31 s
+[1m[32mPosition at 2002-May-18 00:04:15.000000 UTC using 4 observations is Lat = 30.286496686 [deg], Long = 120.032651455 [deg], Height = 97.656 [m][0m
+[1m[32mVelocity: East: 0.274 [m/s], North: 0.873 [m/s], Up = -0.918 [m/s][0m
+New GPS NAV message received in channel 0: subframe 5 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:04:15.500000 UTC using 4 observations is Lat = 30.286511575 [deg], Long = 120.032673391 [deg], Height = 81.383 [m][0m
+[1m[32mVelocity: East: -0.408 [m/s], North: -0.396 [m/s], Up = -0.175 [m/s][0m
+Current receiver time: 4 min 32 s
+[1m[32mPosition at 2002-May-18 00:04:16.000000 UTC using 4 observations is Lat = 30.286521589 [deg], Long = 120.032678860 [deg], Height = 78.236 [m][0m
+[1m[32mVelocity: East: -0.083 [m/s], North: 0.149 [m/s], Up = 0.343 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:16.500000 UTC using 4 observations is Lat = 30.286497438 [deg], Long = 120.032662599 [deg], Height = 90.564 [m][0m
+[1m[32mVelocity: East: -0.236 [m/s], North: -0.022 [m/s], Up = 0.153 [m/s][0m
+Current receiver time: 4 min 33 s
+[1m[32mPosition at 2002-May-18 00:04:17.000000 UTC using 4 observations is Lat = 30.286513186 [deg], Long = 120.032670573 [deg], Height = 97.271 [m][0m
+[1m[32mVelocity: East: -0.191 [m/s], North: -0.335 [m/s], Up = -0.130 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:17.500000 UTC using 4 observations is Lat = 30.286518773 [deg], Long = 120.032680528 [deg], Height = 94.755 [m][0m
+[1m[32mVelocity: East: 0.046 [m/s], North: -0.274 [m/s], Up = 0.441 [m/s][0m
+Current receiver time: 4 min 34 s
+[1m[32mPosition at 2002-May-18 00:04:18.000000 UTC using 4 observations is Lat = 30.286523067 [deg], Long = 120.032679133 [deg], Height = 89.609 [m][0m
+[1m[32mVelocity: East: 0.243 [m/s], North: 0.113 [m/s], Up = -0.560 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:18.500000 UTC using 4 observations is Lat = 30.286516718 [deg], Long = 120.032667467 [deg], Height = 81.818 [m][0m
+[1m[32mVelocity: East: -0.079 [m/s], North: -0.287 [m/s], Up = -0.063 [m/s][0m
+Current receiver time: 4 min 35 s
+[1m[32mPosition at 2002-May-18 00:04:19.000000 UTC using 4 observations is Lat = 30.286495510 [deg], Long = 120.032666002 [deg], Height = 82.778 [m][0m
+[1m[32mVelocity: East: -0.033 [m/s], North: -0.171 [m/s], Up = -0.720 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:19.500000 UTC using 4 observations is Lat = 30.286509399 [deg], Long = 120.032660064 [deg], Height = 94.732 [m][0m
+[1m[32mVelocity: East: 0.157 [m/s], North: 0.262 [m/s], Up = -0.696 [m/s][0m
+Current receiver time: 4 min 36 s
+[1m[32mPosition at 2002-May-18 00:04:20.000000 UTC using 4 observations is Lat = 30.286510382 [deg], Long = 120.032673299 [deg], Height = 95.491 [m][0m
+[1m[32mVelocity: East: 0.475 [m/s], North: -0.019 [m/s], Up = -0.997 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:20.500000 UTC using 4 observations is Lat = 30.286531257 [deg], Long = 120.032681825 [deg], Height = 94.983 [m][0m
+[1m[32mVelocity: East: -0.402 [m/s], North: -0.212 [m/s], Up = -0.400 [m/s][0m
+Current receiver time: 4 min 37 s
+New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 1 from satellite New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 10 (Block IIF)
+GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:04:21.000000 UTC using 4 observations is Lat = 30.286529910 [deg], Long = 120.032687603 [deg], Height = 83.715 [m][0m
+[1m[32mVelocity: East: -0.255 [m/s], North: -0.410 [m/s], Up = 0.554 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:21.500000 UTC using 4 observations is Lat = 30.286516612 [deg], Long = 120.032674178 [deg], Height = 80.357 [m][0m
+[1m[32mVelocity: East: 0.206 [m/s], North: 0.292 [m/s], Up = -0.229 [m/s][0m
+Current receiver time: 4 min 38 s
+[1m[32mPosition at 2002-May-18 00:04:22.000000 UTC using 4 observations is Lat = 30.286514348 [deg], Long = 120.032665690 [deg], Height = 83.711 [m][0m
+[1m[32mVelocity: East: 0.663 [m/s], North: 0.450 [m/s], Up = -1.200 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:22.500000 UTC using 4 observations is Lat = 30.286469939 [deg], Long = 120.032646430 [deg], Height = 98.791 [m][0m
+[1m[32mVelocity: East: -0.186 [m/s], North: -0.420 [m/s], Up = 0.064 [m/s][0m
+Current receiver time: 4 min 39 s
+[1m[32mPosition at 2002-May-18 00:04:23.000000 UTC using 4 observations is Lat = 30.286548703 [deg], Long = 120.032699845 [deg], Height = 88.796 [m][0m
+[1m[32mVelocity: East: 0.227 [m/s], North: 0.862 [m/s], Up = -0.656 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:23.500000 UTC using 4 observations is Lat = 30.286510000 [deg], Long = 120.032672868 [deg], Height = 95.404 [m][0m
+[1m[32mVelocity: East: 0.108 [m/s], North: 0.050 [m/s], Up = 0.301 [m/s][0m
+Current receiver time: 4 min 40 s
+[1m[32mPosition at 2002-May-18 00:04:24.000000 UTC using 4 observations is Lat = 30.286521407 [deg], Long = 120.032683377 [deg], Height = 82.787 [m][0m
+[1m[32mVelocity: East: -0.163 [m/s], North: -0.029 [m/s], Up = -0.019 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:24.500000 UTC using 4 observations is Lat = 30.286524955 [deg], Long = 120.032677865 [deg], Height = 80.232 [m][0m
+[1m[32mVelocity: East: -0.025 [m/s], North: -0.383 [m/s], Up = 0.614 [m/s][0m
+Current receiver time: 4 min 41 s
+[1m[32mPosition at 2002-May-18 00:04:25.000000 UTC using 4 observations is Lat = 30.286505968 [deg], Long = 120.032659961 [deg], Height = 88.662 [m][0m
+[1m[32mVelocity: East: -0.127 [m/s], North: -0.410 [m/s], Up = 0.242 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:25.500000 UTC using 4 observations is Lat = 30.286504037 [deg], Long = 120.032658520 [deg], Height = 97.627 [m][0m
+[1m[32mVelocity: East: -0.579 [m/s], North: -1.060 [m/s], Up = 1.775 [m/s][0m
+Current receiver time: 4 min 42 s
+[1m[32mPosition at 2002-May-18 00:04:26.000000 UTC using 4 observations is Lat = 30.286527670 [deg], Long = 120.032682290 [deg], Height = 93.839 [m][0m
+[1m[32mVelocity: East: -0.668 [m/s], North: -0.214 [m/s], Up = 0.406 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:26.500000 UTC using 4 observations is Lat = 30.286488261 [deg], Long = 120.032678794 [deg], Height = 88.886 [m][0m
+[1m[32mVelocity: East: -0.348 [m/s], North: 0.285 [m/s], Up = 0.947 [m/s][0m
+Current receiver time: 4 min 43 s
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:04:27.000000 UTC using 4 observations is Lat = 30.286508390 [deg], Long = 120.032650131 [deg], Height = 89.655 [m][0m
+[1m[32mVelocity: East: -0.242 [m/s], North: -0.569 [m/s], Up = 0.685 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:27.500000 UTC using 4 observations is Lat = 30.286501947 [deg], Long = 120.032675329 [deg], Height = 80.357 [m][0m
+[1m[32mVelocity: East: 0.237 [m/s], North: 0.919 [m/s], Up = -0.562 [m/s][0m
+Current receiver time: 4 min 44 s
+[1m[32mPosition at 2002-May-18 00:04:28.000000 UTC using 4 observations is Lat = 30.286534112 [deg], Long = 120.032676254 [deg], Height = 88.663 [m][0m
+[1m[32mVelocity: East: -0.068 [m/s], North: -0.609 [m/s], Up = 0.279 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:28.500000 UTC using 4 observations is Lat = 30.286509487 [deg], Long = 120.032674034 [deg], Height = 92.993 [m][0m
+[1m[32mVelocity: East: -0.482 [m/s], North: 0.148 [m/s], Up = 0.094 [m/s][0m
+Current receiver time: 4 min 45 s
+[1m[32mPosition at 2002-May-18 00:04:29.000000 UTC using 4 observations is Lat = 30.286529407 [deg], Long = 120.032679054 [deg], Height = 92.380 [m][0m
+[1m[32mVelocity: East: -0.330 [m/s], North: -0.630 [m/s], Up = -0.221 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:29.500000 UTC using 4 observations is Lat = 30.286518906 [deg], Long = 120.032673206 [deg], Height = 86.163 [m][0m
+[1m[32mVelocity: East: -0.070 [m/s], North: 0.331 [m/s], Up = 0.004 [m/s][0m
+Current receiver time: 4 min 46 s
+[1m[32mPosition at 2002-May-18 00:04:30.000000 UTC using 4 observations is Lat = 30.286507521 [deg], Long = 120.032679591 [deg], Height = 80.079 [m][0m
+[1m[32mVelocity: East: 0.268 [m/s], North: 0.304 [m/s], Up = -0.434 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:30.500000 UTC using 4 observations is Lat = 30.286536289 [deg], Long = 120.032683291 [deg], Height = 82.942 [m][0m
+[1m[32mVelocity: East: 0.636 [m/s], North: 0.315 [m/s], Up = -1.465 [m/s][0m
+Current receiver time: 4 min 47 s
+[1m[32mPosition at 2002-May-18 00:04:31.000000 UTC using 4 observations is Lat = 30.286550330 [deg], Long = 120.032700055 [deg], Height = 86.557 [m][0m
+[1m[32mVelocity: East: -0.219 [m/s], North: -0.280 [m/s], Up = -0.474 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:31.500000 UTC using 4 observations is Lat = 30.286511647 [deg], Long = 120.032660382 [deg], Height = 97.293 [m][0m
+[1m[32mVelocity: East: 0.473 [m/s], North: -0.023 [m/s], Up = -0.346 [m/s][0m
+Current receiver time: 4 min 48 s
+[1m[32mPosition at 2002-May-18 00:04:32.000000 UTC using 4 observations is Lat = 30.286531873 [deg], Long = 120.032670997 [deg], Height = 95.024 [m][0m
+[1m[32mVelocity: East: 0.062 [m/s], North: 0.273 [m/s], Up = -0.277 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:32.500000 UTC using 4 observations is Lat = 30.286472606 [deg], Long = 120.032657158 [deg], Height = 88.059 [m][0m
+[1m[32mVelocity: East: 0.087 [m/s], North: 0.238 [m/s], Up = -1.306 [m/s][0m
+Current receiver time: 4 min 49 s
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 3 from satellite New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:04:33.000000 UTC using 4 observations is Lat = 30.286501753 [deg], Long = 120.032667000 [deg], Height = 84.303 [m][0m
+[1m[32mVelocity: East: 0.452 [m/s], North: 0.367 [m/s], Up = -1.471 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:33.500000 UTC using 4 observations is Lat = 30.286523705 [deg], Long = 120.032678381 [deg], Height = 86.079 [m][0m
+[1m[32mVelocity: East: 0.600 [m/s], North: 0.014 [m/s], Up = -0.002 [m/s][0m
+Current receiver time: 4 min 50 s
+[1m[32mPosition at 2002-May-18 00:04:34.000000 UTC using 4 observations is Lat = 30.286527862 [deg], Long = 120.032679437 [deg], Height = 93.218 [m][0m
+[1m[32mVelocity: East: -0.066 [m/s], North: -0.101 [m/s], Up = 0.118 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:34.500000 UTC using 4 observations is Lat = 30.286524421 [deg], Long = 120.032669542 [deg], Height = 95.607 [m][0m
+[1m[32mVelocity: East: -0.124 [m/s], North: -0.355 [m/s], Up = -0.051 [m/s][0m
+Current receiver time: 4 min 51 s
+[1m[32mPosition at 2002-May-18 00:04:35.000000 UTC using 4 observations is Lat = 30.286517436 [deg], Long = 120.032652851 [deg], Height = 91.912 [m][0m
+[1m[32mVelocity: East: -0.042 [m/s], North: -0.230 [m/s], Up = -0.360 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:35.500000 UTC using 4 observations is Lat = 30.286515721 [deg], Long = 120.032671300 [deg], Height = 82.250 [m][0m
+[1m[32mVelocity: East: 0.187 [m/s], North: 0.018 [m/s], Up = -0.810 [m/s][0m
+Current receiver time: 4 min 52 s
+[1m[32mPosition at 2002-May-18 00:04:36.000000 UTC using 4 observations is Lat = 30.286516223 [deg], Long = 120.032675438 [deg], Height = 81.259 [m][0m
+[1m[32mVelocity: East: 0.253 [m/s], North: 0.148 [m/s], Up = -0.838 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:36.500000 UTC using 4 observations is Lat = 30.286542685 [deg], Long = 120.032696367 [deg], Height = 86.007 [m][0m
+[1m[32mVelocity: East: -0.247 [m/s], North: -0.279 [m/s], Up = 0.340 [m/s][0m
+Current receiver time: 4 min 53 s
+[1m[32mPosition at 2002-May-18 00:04:37.000000 UTC using 4 observations is Lat = 30.286507233 [deg], Long = 120.032659534 [deg], Height = 100.086 [m][0m
+[1m[32mVelocity: East: -0.524 [m/s], North: 0.358 [m/s], Up = 0.045 [m/s][0m
+Current receiver time: 4 min 54 s
+[1m[32mPosition at 2002-May-18 00:04:37.500000 UTC using 4 observations is Lat = 30.286507626 [deg], Long = 120.032665256 [deg], Height = 97.185 [m][0m
+[1m[32mVelocity: East: 0.531 [m/s], North: 0.383 [m/s], Up = -1.133 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:38.000000 UTC using 4 observations is Lat = 30.286522793 [deg], Long = 120.032673221 [deg], Height = 80.707 [m][0m
+[1m[32mVelocity: East: 0.335 [m/s], North: 0.840 [m/s], Up = 0.325 [m/s][0m
+Current receiver time: 4 min 55 s
+[1m[32mPosition at 2002-May-18 00:04:38.500000 UTC using 4 observations is Lat = 30.286509038 [deg], Long = 120.032670915 [deg], Height = 80.426 [m][0m
+[1m[32mVelocity: East: -0.233 [m/s], North: 0.034 [m/s], Up = -0.205 [m/s][0m
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 12 (Block IIR-M)
+[1m[32mPosition at 2002-May-18 00:04:39.000000 UTC using 4 observations is Lat = 30.286510291 [deg], Long = 120.032675198 [deg], Height = 83.483 [m][0m
+[1m[32mVelocity: East: 0.128 [m/s], North: 0.224 [m/s], Up = -0.068 [m/s][0m
+Current receiver time: 4 min 56 s
+[1m[32mPosition at 2002-May-18 00:04:39.500000 UTC using 4 observations is Lat = 30.286527595 [deg], Long = 120.032687607 [deg], Height = 93.806 [m][0m
+[1m[32mVelocity: East: -0.353 [m/s], North: -0.392 [m/s], Up = 0.102 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:40.000000 UTC using 4 observations is Lat = 30.286509658 [deg], Long = 120.032678826 [deg], Height = 96.497 [m][0m
+[1m[32mVelocity: East: 0.396 [m/s], North: 0.060 [m/s], Up = -0.302 [m/s][0m
+Current receiver time: 4 min 57 s
+[1m[32mPosition at 2002-May-18 00:04:40.500000 UTC using 4 observations is Lat = 30.286533413 [deg], Long = 120.032680557 [deg], Height = 91.468 [m][0m
+[1m[32mVelocity: East: -0.529 [m/s], North: 0.282 [m/s], Up = 0.529 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:41.000000 UTC using 4 observations is Lat = 30.286522972 [deg], Long = 120.032679056 [deg], Height = 80.073 [m][0m
+[1m[32mVelocity: East: 0.059 [m/s], North: 0.119 [m/s], Up = 0.042 [m/s][0m
+Current receiver time: 4 min 58 s
+[1m[32mPosition at 2002-May-18 00:04:41.500000 UTC using 4 observations is Lat = 30.286517647 [deg], Long = 120.032668719 [deg], Height = 80.968 [m][0m
+[1m[32mVelocity: East: 0.330 [m/s], North: 0.306 [m/s], Up = -0.364 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:42.000000 UTC using 4 observations is Lat = 30.286515157 [deg], Long = 120.032669565 [deg], Height = 90.171 [m][0m
+[1m[32mVelocity: East: -0.050 [m/s], North: 0.197 [m/s], Up = -0.254 [m/s][0m
+Current receiver time: 4 min 59 s
+[1m[32mPosition at 2002-May-18 00:04:42.500000 UTC using 4 observations is Lat = 30.286511226 [deg], Long = 120.032671111 [deg], Height = 96.602 [m][0m
+[1m[32mVelocity: East: 0.280 [m/s], North: -0.075 [m/s], Up = -0.113 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:43.000000 UTC using 4 observations is Lat = 30.286525394 [deg], Long = 120.032669890 [deg], Height = 96.887 [m][0m
+[1m[32mVelocity: East: 0.343 [m/s], North: -0.052 [m/s], Up = -0.272 [m/s][0m
+Current receiver time: 5 min 0 s
+[1m[32mPosition at 2002-May-18 00:04:43.500000 UTC using 4 observations is Lat = 30.286507917 [deg], Long = 120.032676634 [deg], Height = 86.758 [m][0m
+[1m[32mVelocity: East: 0.628 [m/s], North: 0.796 [m/s], Up = -0.430 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:44.000000 UTC using 4 observations is Lat = 30.286508008 [deg], Long = 120.032669212 [deg], Height = 81.350 [m][0m
+[1m[32mVelocity: East: -0.044 [m/s], North: 0.280 [m/s], Up = -0.512 [m/s][0m
+Stopping GNSS-SDR, please wait!
+[1m[32mPosition at 2002-May-18 00:04:44.500000 UTC using 4 observations is Lat = 30.286493611 [deg], Long = 120.032669643 [deg], Height = 83.446 [m][0m
+[1m[32mVelocity: East: -0.146 [m/s], North: -0.389 [m/s], Up = 0.307 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:45.000000 UTC using 4 observations is Lat = 30.286498385 [deg], Long = 120.032651797 [deg], Height = 94.818 [m][0m
+[1m[32mVelocity: East: 0.068 [m/s], North: -0.065 [m/s], Up = 0.908 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:45.500000 UTC using 4 observations is Lat = 30.286520442 [deg], Long = 120.032672003 [deg], Height = 97.870 [m][0m
+[1m[32mVelocity: East: -0.902 [m/s], North: -0.655 [m/s], Up = 0.583 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:46.000000 UTC using 4 observations is Lat = 30.286526582 [deg], Long = 120.032685927 [deg], Height = 93.136 [m][0m
+[1m[32mVelocity: East: 0.245 [m/s], North: 0.467 [m/s], Up = -0.498 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:04:46.500000 UTC using 4 observations is Lat = 30.286527774 [deg], Long = 120.032681268 [deg], Height = 84.105 [m][0m
+[1m[32mVelocity: East: -0.243 [m/s], North: 0.528 [m/s], Up = -1.124 [m/s][0m
+Stopping TCP/IP server on port 2101
+Total GNSS-SDR run time: 7.067056 [seconds]
+GNSS-SDR program ended.

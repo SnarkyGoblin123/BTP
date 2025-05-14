@@ -1,0 +1,159 @@
+Initializing GNSS-SDR v0.0.16 ... Please wait.
+Logging will be written at "/tmp"
+Use gnss-sdr --log_dir=/path/to/log to change that.
+RF Channels: 1
+Starting a TCP/IP server of RTCM messages on port 2101
+The TCP/IP server of RTCM messages is up and running. Accepting connections ...
+file_source :warning: file size is not a multiple of item size
+Processing file /home/joel/gps-sdr-sim-master/gen_data_split/mydataa, which contains 399866666 samples (799733333 bytes)
+GNSS signal recorded time to be processed: 49.9333 [s]
+Tracking of GPS L1 C/A signal started on channel 4 for satellite GPS PRN 05 (Block IIR-M)
+Current receiver time: 1 s
+Tracking of GPS L1 C/A signal started on channel 5 for satellite GPS PRN 13 (Block IIR)
+Tracking of GPS L1 C/A signal started on channel 0 for satellite GPS PRN 10 (Block IIF)
+Tracking of GPS L1 C/A signal started on channel 6 for satellite GPS PRN 15 (Block IIR-M)
+Tracking of GPS L1 C/A signal started on channel 3 for satellite GPS PRN 18 (Block III)
+Tracking of GPS L1 C/A signal started on channel 2 for satellite GPS PRN 20 (Block IIR)
+Tracking of GPS L1 C/A signal started on channel 7 for satellite GPS PRN 23 (Block III)
+Tracking of GPS L1 C/A signal started on channel 1 for satellite GPS PRN 24 (Block IIF)
+Current receiver time: 2 s
+Current receiver time: 3 s
+Current receiver time: 4 s
+Current receiver time: 5 s
+Current receiver time: 6 s
+Current receiver time: 7 s
+Current receiver time: 8 s
+Current receiver time: 9 s
+Current receiver time: 10 s
+Current receiver time: 11 s
+Current receiver time: 12 s
+GPS L1 C/A tracking bit synchronization locked in channel 6 for satellite GPS PRN 15 (Block IIR-M)
+Current receiver time: 13 s
+GPS L1 C/A tracking bit synchronization locked in channel 1 for satellite GPS PRN 24 (Block IIF)
+GPS L1 C/A tracking bit synchronization locked in channel 3 for satellite GPS PRN 18 (Block III)
+GPS L1 C/A tracking bit synchronization locked in channel 7 for satellite GPS PRN 23 (Block III)
+GPS L1 C/A tracking bit synchronization locked in channel 4 for satellite GPS PRN 05 (Block IIR-M)
+GPS L1 C/A tracking bit synchronization locked in channel 5 for satellite GPS PRN 13 (Block IIR)
+GPS L1 C/A tracking bit synchronization locked in channel 0 for satellite GPS PRN 10 (Block IIF)
+GPS L1 C/A tracking bit synchronization locked in channel 2 for satellite GPS PRN 20 (Block IIR)
+Current receiver time: 14 s
+Current receiver time: 15 s
+Current receiver time: 16 s
+Current receiver time: 17 s
+Current receiver time: 18 s
+Current receiver time: 19 s
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 24 (Block IIF)
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 18 (Block III)
+New GPS NAV message received in channel 6: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 7: subframe 3 from satellite GPS PRN 23 (Block III)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 5: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 20 (Block IIR)
+Current receiver time: 20 s
+Current receiver time: 21 s
+Current receiver time: 22 s
+Current receiver time: 23 s
+Current receiver time: 24 s
+Current receiver time: 25 s
+New GPS NAV message received in channel 1: subframe 4 from satellite GPS PRN 24 (Block IIF)
+New GPS NAV message received in channel 3: subframe 4 from satellite GPS PRN 18 (Block III)
+New GPS NAV message received in channel 6: subframe 4 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 7: subframe 4 from satellite GPS PRN 23 (Block III)
+New GPS NAV message received in channel 4: subframe 4 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 5: subframe 4 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 0: subframe 4 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 2: subframe 4 from satellite GPS PRN 20 (Block IIR)
+Current receiver time: 26 s
+Current receiver time: 27 s
+Current receiver time: 28 s
+Current receiver time: 29 s
+Current receiver time: 30 s
+Current receiver time: 31 s
+New GPS NAV message received in channel 1: subframe 5 from satellite GPS PRN 24 (Block IIF)
+New GPS NAV message received in channel 3: subframe 5 from satellite GPS PRN 18 (Block III)
+New GPS NAV message received in channel 6: subframe 5 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 7: subframe 5 from satellite GPS PRN 23 (Block III)
+New GPS NAV message received in channel 4: subframe 5 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 5: subframe 5 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 0: subframe 5 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 2: subframe 5 from satellite GPS PRN 20 (Block IIR)
+Current receiver time: 32 s
+Current receiver time: 33 s
+Current receiver time: 34 s
+Current receiver time: 35 s
+Current receiver time: 36 s
+Current receiver time: 37 s
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 24 (Block IIF)
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 18 (Block III)
+New GPS NAV message received in channel 6: subframe 1 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 7: subframe 1 from satellite GPS PRN 23 (Block III)
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 5: subframe 1 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 20 (Block IIR)
+Current receiver time: 38 s
+Current receiver time: 39 s
+Current receiver time: 40 s
+Current receiver time: 41 s
+Current receiver time: 42 s
+Current receiver time: 43 s
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 24 (Block IIF)
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 18 (Block III)
+New GPS NAV message received in channel 6: subframe 2 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 7: subframe 2 from satellite GPS PRN 23 (Block III)
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 5: subframe 2 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 20 (Block IIR)
+First position fix at 2002-May-18 00:00:29.100000 UTC is Lat = 30.2865 [deg], Long = 120.033 [deg], Height= 92.2948 [m]
+[1m[32mPosition at 2002-May-18 00:00:29.500000 UTC using 6 observations is Lat = 30.286489340 [deg], Long = 120.032674256 [deg], Height = 95.365 [m][0m
+[1m[32mVelocity: East: 0.178 [m/s], North: 0.286 [m/s], Up = 0.808 [m/s][0m
+Current receiver time: 44 s
+The RINEX Navigation file header has been updated with UTC and IONO info.
+[1m[32mPosition at 2002-May-18 00:00:30.000000 UTC using 6 observations is Lat = 30.286531590 [deg], Long = 120.032662450 [deg], Height = 87.981 [m][0m
+[1m[32mVelocity: East: 0.117 [m/s], North: 0.041 [m/s], Up = 0.100 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:00:30.500000 UTC using 6 observations is Lat = 30.286449081 [deg], Long = 120.032637661 [deg], Height = 92.675 [m][0m
+[1m[32mVelocity: East: -0.244 [m/s], North: -0.149 [m/s], Up = -0.422 [m/s][0m
+Current receiver time: 45 s
+[1m[32mPosition at 2002-May-18 00:00:31.000000 UTC using 6 observations is Lat = 30.286510568 [deg], Long = 120.032665150 [deg], Height = 82.955 [m][0m
+[1m[32mVelocity: East: -0.169 [m/s], North: -0.176 [m/s], Up = -0.471 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:00:31.500000 UTC using 6 observations is Lat = 30.286481971 [deg], Long = 120.032662311 [deg], Height = 93.515 [m][0m
+[1m[32mVelocity: East: -0.033 [m/s], North: -0.639 [m/s], Up = -0.560 [m/s][0m
+Current receiver time: 46 s
+[1m[32mPosition at 2002-May-18 00:00:32.000000 UTC using 6 observations is Lat = 30.286518875 [deg], Long = 120.032679875 [deg], Height = 94.446 [m][0m
+[1m[32mVelocity: East: -0.263 [m/s], North: -0.500 [m/s], Up = -0.195 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:00:32.500000 UTC using 6 observations is Lat = 30.286524291 [deg], Long = 120.032677835 [deg], Height = 92.838 [m][0m
+[1m[32mVelocity: East: -0.002 [m/s], North: 0.087 [m/s], Up = 0.429 [m/s][0m
+Current receiver time: 47 s
+[1m[32mPosition at 2002-May-18 00:00:33.000000 UTC using 6 observations is Lat = 30.286493683 [deg], Long = 120.032653229 [deg], Height = 94.389 [m][0m
+[1m[32mVelocity: East: 0.022 [m/s], North: 0.042 [m/s], Up = -0.572 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:00:33.500000 UTC using 6 observations is Lat = 30.286517445 [deg], Long = 120.032667761 [deg], Height = 86.243 [m][0m
+[1m[32mVelocity: East: 0.300 [m/s], North: 0.613 [m/s], Up = -0.844 [m/s][0m
+Current receiver time: 48 s
+[1m[32mPosition at 2002-May-18 00:00:34.000000 UTC using 6 observations is Lat = 30.286456274 [deg], Long = 120.032646720 [deg], Height = 92.469 [m][0m
+[1m[32mVelocity: East: -0.294 [m/s], North: 0.322 [m/s], Up = -0.138 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:00:34.500000 UTC using 6 observations is Lat = 30.286506796 [deg], Long = 120.032653790 [deg], Height = 87.895 [m][0m
+[1m[32mVelocity: East: 0.125 [m/s], North: 0.324 [m/s], Up = 0.518 [m/s][0m
+Current receiver time: 49 s
+New GPS NAV message received in channel 3: subframe 3 from satellite GPS PRN 18 (Block III)
+New GPS NAV message received in channel 1: subframe 3 from satellite GPS PRN 24 (Block IIF)
+New GPS NAV message received in channel 6: subframe 3 from satellite GPS PRN 15 (Block IIR-M)
+New GPS NAV message received in channel 7: subframe 3 from satellite GPS PRN 23 (Block III)
+New GPS NAV message received in channel 4: subframe 3 from satellite GPS PRN 05 (Block IIR-M)
+New GPS NAV message received in channel 5: subframe 3 from satellite GPS PRN 13 (Block IIR)
+New GPS NAV message received in channel 0: subframe 3 from satellite GPS PRN 10 (Block IIF)
+New GPS NAV message received in channel 2: subframe 3 from satellite GPS PRN 20 (Block IIR)
+[1m[32mPosition at 2002-May-18 00:00:35.000000 UTC using 6 observations is Lat = 30.286481418 [deg], Long = 120.032664781 [deg], Height = 95.135 [m][0m
+[1m[32mVelocity: East: 0.075 [m/s], North: 0.059 [m/s], Up = -0.481 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:00:35.500000 UTC using 6 observations is Lat = 30.286531763 [deg], Long = 120.032678625 [deg], Height = 93.952 [m][0m
+[1m[32mVelocity: East: 0.438 [m/s], North: 0.341 [m/s], Up = 0.339 [m/s][0m
+Current receiver time: 50 s
+[1m[32mPosition at 2002-May-18 00:00:36.000000 UTC using 6 observations is Lat = 30.286526241 [deg], Long = 120.032672388 [deg], Height = 93.464 [m][0m
+[1m[32mVelocity: East: 0.127 [m/s], North: -0.061 [m/s], Up = 0.425 [m/s][0m
+[1m[32mPosition at 2002-May-18 00:00:36.500000 UTC using 6 observations is Lat = 30.286476800 [deg], Long = 120.032661441 [deg], Height = 90.882 [m][0m
+[1m[32mVelocity: East: 0.153 [m/s], North: -0.116 [m/s], Up = -0.133 [m/s][0m
+Stopping GNSS-SDR, please wait!
+Stopping TCP/IP server on port 2101
+Total GNSS-SDR run time: 8.030629 [seconds]
+GNSS-SDR program ended.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="18">
+<GNSS-SDR_iono_model class_id="0" tracking_level="0" version="0">
+	<alpha0>1.21071934700012207e-08</alpha0>
+	<alpha1>-7.45058059692382812e-09</alpha1>
+	<alpha2>-5.96046447753906250e-08</alpha2>
+	<alpha3>1.19209289550781250e-07</alpha3>
+	<beta0>1.16736000000000000e+05</beta0>
+	<beta1>-2.45760000000000000e+05</beta1>
+	<beta2>-6.55360000000000000e+04</beta2>
+	<beta3>1.11411200000000000e+06</beta3>
+</GNSS-SDR_iono_model>
+</boost_serialization>
+
