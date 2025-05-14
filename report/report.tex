@@ -1,5 +1,6 @@
 \documentclass[12pt]{report}
-\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[a4paper, margin=0.5in]{geometry}
+% \usepackage[a4paper, top=1in, bottom=1in, left=1in, right=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{titlesec}
@@ -12,7 +13,7 @@
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection.}{1em}{}
 \titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection.}{1em}{}
 
-\title{\textbf{GPS Spoofing: Signal Cancellation and Reconstruction}}
+\title{\textbf{GPS Spoofing and Anti-Spoofing Techniques}}
 \author{Aditya Kumar (210070003) \and Joel Anto Paul (210070037) \\
 \and \\
 {\large Guide: Prof. Sibiraj Pillai}}
@@ -25,6 +26,7 @@
 
 \begin{abstract}
 This report investigates advanced GPS spoofing methodologies that go beyond traditional techniques by focusing on signal cancellation and synthetic signal injection. We present a series of experiments based on GNSS-SDR and GPS-SDR tools, exploring the challenges in detection, correlation, fine Doppler estimation, and signal cancellation to demonstrate the viability of spoofing a GPS receiver without increased signal power.
+The code has been made available on Github at \url{https://github.com/SnarkyGoblin123/BTP.git}.
 \end{abstract}
 
 \section{Introduction}
@@ -346,47 +348,115 @@ given we know the decoded telemetry bits and the doppler shift data as recorded 
 the sliding window subtraction where we leverage the use of the fact that there is periodicity in the signal.
 \section{Extended Methodology: Sliding Window Subtraction}
 Given the sampling frequency $f_s$, each telemetry bit takes 20 ms to transmit, therefore each bit has $k = \frac{20f_s}{1000}$ chips. Therefore, after estimating the codephase estimate, and starting from the point where GNSS-SDR gives us the first doppler value, we start subtracting the telemetry bit.
-Since each telemetry bit takes k chips, after subtacting one bit we can skip k chips ahead and start subtracting the next bit. This is done for all the telemetry bits. The pseudocode is as follows:
-\begin{algorithm}
+Since each telemetry bit takes k chips, after subtacting one bit we can skip k chips ahead and start subtracting the next bit. This is done for all the telemetry bits. The code is present in the github repository, in BTP2 - main.py.
+
+\subsection{Results}
+After running the code, we ran GNSS-SDR on the output data. We tried to subtract satellite 10, but we still saw the peaks in the correlation. Why!?
+\subsection{Analysis}
 \begin{itemize}
-  \item Implemented a sliding window across data
-  \item Used Doppler and code phase info to align windows
-  \item Subtracted satellite signals bit-by-bit using estimated $\alpha$
+  \item Improper aligning between the actual bit and its estimated position
+  \item On running the codephase estimation for preambles starting position, we observed that there is a shift in the start of the subframes. Ideally, we should see that
+each subframe takes 6 seconds or $6f_s$ chips which for $f_s = 4MHz$ is 24 Million samples, therefore each subframe should start after 24 million samples, but we see that each subframe starts at 24 million - 44, which is weird. 
+To reproduce this run the code phase estimate function in BTP2/main.py. The data should be loaded from the gps-sdr-sim with the rinex navigation file provided in its respective repository. 
+The command for reproducing the data is:
+
+\begin{verbatim}
+
+gps-sdr-sim -e brdc0010.22n -l 30.286502,120.032669,100 -s 4e6 -o output.dat
+\end{verbatim}
+
+
+  \item This means that as we move into the data there is a shift in the bits, which we were not able to figure out. Once this shift is corrected, we would be able to subtract a satellite successfully
+  \item Since this is synthetic data, we believe this should not be because of the clock correction in satellites. Nevertheless, look into gps-sdr-sim code to see if they are trying to simulate the clock correction.
 \end{itemize}
 
-\subsection*{Issues Faced}
-\begin{itemize}
-  \item Preamble shifts between frames led to misalignment
-  \item Incomplete cancellation observed in GNSS-SDR
-\end{itemize}
-
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{misalign.png}
+  \caption{So basically we started subtracting from an index lets say 100, the next PRN sequence should start at 4100, or in general 4000k + 100, if we assume $f_s = 4MHz$. If there is no shift in data, after subtraction, we should ideally see no peaks, but as we move forward with time, peaks starts resurfacing}
+  \label{fig:misalign}
+\end{figure}
 \section{Alternate Spoofing via Signal Combination}
-As cancellation proved sensitive, an alternative method was:
+As cancellation proved sensitive, an alternative method was explored:
 \begin{itemize}
   \item Generate two paths using \texttt{gps-sdr-sim}
   \item Create a combined signal: \( y = \alpha x_1 + (1-\alpha)x_2 \)
-  \item Tune $\alpha$ until spoofed path dominates
+  \item Tune $\alpha$ until spoofed path dominates (Take minimum alpha which satisfies this condition)
   \item Generate: \( y = x_1 + \frac{1-\alpha}{\alpha}x_2 \)
 \end{itemize}
 
-\subsection*{Results}
+\noindent How did we generate paths?
 \begin{itemize}
-  \item Spoofed location visible in GNSS-SDR
+  \item GPS-SDR-SIM's repository provides a method
+  \item Go to satgen folder, there they ask us to install satgen v3
+  \item Use this application to generate an NMEA facilitated
+  \item Use google earth to generate a kml file which is fed into SatGen v3
+  \item Finally, after producing the NMEA file, follow the steps provided in the gps-sdr-sim/satgen folder to generate a csv facilitated
+  \item Then run gps-sdr-sim to generate data using the csv file
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{path1.png}
+    \caption{Blue is the original path, yellow is the spoofed path.}
+    \label{fig:path1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{spoofed_path1.png}
+    \caption{Spoofed Path}
+    \label{fig:spoofed_path1}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{path2.png}
+    \caption{Blue is spoofed path, yellow is the original path.}
+    \label{fig:path2}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{spoofed_path2.png}
+    \caption{Spoofed Path}
+    \label{fig:spoofed_path2}
+  \end{minipage}
+\end{figure}
+
+\subsection{Results}
+\begin{itemize}
+  \item After running the above approach, we were able to spoof the receiver as GNSS-SDR locked on to the spoofed path
   \item Required spoofing signal to be ~50\% stronger than authentic
 \end{itemize}
 
+\noindent Since we are able to spoof a receiver, we now look into methods of anti-spoofing methods for this spoofing technique
+
 \section{Anti-Spoofing Methodology}
-Spoofing detection techniques:
+Spoofing detection techniques
+We can use two methods:
 \begin{itemize}
   \item Compare live correlation with baseline magnitude
+  \begin{itemize}
+    \item if correlation is atleast twice as strong as the baseline, we can assume we are being spoofed
+    \item Double because there are two signals and its reasonable to assume that spoofed signal is atleast as strong as the original signal
+    \item Here baseline correlation plot is something measured in past, so it may not be reliable
+  \end{itemize}
   \item Observe anomalies in PRN correlations:
-    \begin{itemize}
-      \item Irregular peaks
-      \item Two imaginary or real peaks at the same delay
-    \end{itemize}
+      \begin{itemize}
+        \item Irregular peaks
+        \item Two imaginary or real peaks at the same delay
+      \end{itemize}
 \end{itemize}
 
-\subsection*{Observed Cases}
+These methods can be used to detect spoofing for the above method of spoofing.
+
+\subsection{Observed Cases}
 Dual imaginary peaks observed at:
 \begin{itemize}
   \item $t = 135$ seconds
@@ -394,14 +464,98 @@ Dual imaginary peaks observed at:
   \item $t = 225$ seconds
 \end{itemize}
 
+And on zooming in, at $t = 225$ we can see two different peaks shifted by a small amount. This is visble only if the real signal and spoofed signal are far apart in distance, or else the bit received would be same and hence indistinguishable.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{t135.png}
+    \caption{Correlation peaks of original data at $t = 135$ seconds.}
+    \label{fig:t135}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{t135_sp.png}
+    \caption{dual peaks at for spoofed signal $t = 135$ seconds. Not strong enough but not weak enough to be ignored.}
+    \label{fig:t135_sp}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{t180.png}
+    \caption{Correlation peaks of original data at $t = 180$ seconds.}
+    \label{fig:t180}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{t180_sp.png}
+    \caption{dual peaks at for spoofed signal $t = 180$ seconds.}
+    \label{fig:t180_sp}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{t225.png}
+    \caption{Correlation peaks of original data at $t = 225$ seconds.}
+    \label{fig:t225}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{t225_sp.png}
+    \caption{dual peaks at for spoofed signal $t = 225$ seconds.}
+    \label{fig:t225_sp}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.32\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{t225_z1.png}
+    \caption{Zoomed-in view of correlation peaks at $t = 225$ seconds (Region 1).}
+    \label{fig:t225_z1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.32\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{t225_z2.png}
+    \caption{Zoomed-in view of correlation peaks at $t = 225$ seconds (Region 2).}
+    \label{fig:t225_z2}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.32\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{t225_z3.png}
+    \caption{Zoomed-in view of correlation peaks at $t = 225$ seconds (Region 3).}
+    \label{fig:t225_z3}
+  \end{minipage}
+\end{figure}
+
 These confirm presence of superimposed signals.
 
 \section{Miscellaneous Experiments}
-We plotted estimated $\alpha$ vs. gain injected via GPS-SDR-SIM:
+We plotted estimated $\alpha$ from a GNSS signal simulated by gps-sdr-sim, vs the actual gain values with which we simulated the signal.:
 \begin{itemize}
   \item Observed near-linear relationship
   \item Helps plan spoofing gain given fine Doppler info
 \end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{alpvsgain.png}
+  \caption{Estimated $\alpha$ vs Actual Gain Values.}
+  \label{fig:alpvsgain}
+\end{figure}
 
 \section{Conclusions}
 \begin{itemize}
@@ -411,10 +565,9 @@ We plotted estimated $\alpha$ vs. gain injected via GPS-SDR-SIM:
   \item Anomalies in correlation allow spoof detection
 \end{itemize}
 
-\section*{Future Work}
+\section{Future Work}
 \begin{itemize}
   \item Real-time spoofing and anti-spoofing pipelines
-  \item Replace brute-force Doppler and subtraction with Kalman filtering
   \item Analyze long-term variations in correlation peaks
   \item Efficient signal subtraction over multiple frames
 \end{itemize}

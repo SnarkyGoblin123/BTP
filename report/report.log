@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.5)  14 MAY 2025 18:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.5)  14 MAY 2025 20:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -292,28 +292,28 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
 \l__pdf_internal_box=\box57
-)
-No file report.aux.
+) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -322,15 +322,15 @@ LaTeX Font Info:    ... okay on input line 22.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* h-part:(L,W,R)=(36.135pt, 525.23788pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=525.23788pt
+* \textheight=772.77686pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -371,7 +371,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 23.
+ (./report.out) (./report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
@@ -381,174 +382,176 @@ Package hyperref Info: Link coloring OFF on input line 22.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 \end{abstract}
+l.30 \end{abstract}
                     [1]
-<spoof.png, id=14, 477.785pt x 328.22626pt>
+<spoof.png, id=173, 477.785pt x 328.22626pt>
 File: spoof.png Graphic file (type png)
 <use spoof.png>
-Package pdftex.def Info: spoof.png  used on input line 34.
-(pdftex.def)             Requested size: 271.7835pt x 186.70526pt.
-
-
-LaTeX Warning: Reference `ref:gnss_sdr' on page 1 undefined on input line 57.
-
+Package pdftex.def Info: spoof.png  used on input line 36.
+(pdftex.def)             Requested size: 315.14594pt x 216.49477pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62   \item \textbf
-                    {Signal Processing Blocks:} Each block performs a specif... [1{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./spoof.png>]
-<GNSS_SDR.png, id=31, 38.544pt x 23.17458pt>
+l.66   \item \textbf
+                    {Configuration:} Users can configure the receiver to wor... [1{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./spoof.png>]
+<GNSS_SDR.png, id=189, 38.544pt x 23.17458pt>
 File: GNSS_SDR.png Graphic file (type png)
 <use GNSS_SDR.png>
-Package pdftex.def Info: GNSS_SDR.png  used on input line 71.
-(pdftex.def)             Requested size: 271.7835pt x 163.46313pt.
+Package pdftex.def Info: GNSS_SDR.png  used on input line 73.
+(pdftex.def)             Requested size: 315.14594pt x 189.5433pt.
  [2 <./GNSS_SDR.png>]
-<GPS_struct.png, id=41, 812.03375pt x 509.905pt>
+<GPS_struct.png, id=197, 812.03375pt x 509.905pt>
 File: GPS_struct.png Graphic file (type png)
 <use GPS_struct.png>
-Package pdftex.def Info: GPS_struct.png  used on input line 108.
-(pdftex.def)             Requested size: 362.37569pt x 227.54112pt.
-
-
-LaTeX Warning: Reference `ref:gps_struct' on page 3 undefined on input line 120.
-
-
-LaTeX Warning: Reference `ref:prn_generator' on page 3 undefined on input line 123.
-
-[3 <./GPS_struct.png>]
-<PRN_gen.png, id=53, 922.94812pt x 498.36188pt>
+Package pdftex.def Info: GPS_struct.png  used on input line 110.
+(pdftex.def)             Requested size: 420.19191pt x 263.85277pt.
+<PRN_gen.png, id=200, 922.94812pt x 498.36188pt>
 File: PRN_gen.png Graphic file (type png)
 <use PRN_gen.png>
-Package pdftex.def Info: PRN_gen.png  used on input line 135.
-(pdftex.def)             Requested size: 362.37569pt x 195.6683pt.
- [4 <./PRN_gen.png>]
-
-LaTeX Warning: Reference `ref:gps_sdr_sim' on page 5 undefined on input line 169.
-
-<exp1.png, id=63, 859.2903pt x 426.393pt>
+Package pdftex.def Info: PRN_gen.png  used on input line 137.
+(pdftex.def)             Requested size: 420.19191pt x 226.89188pt.
+ [3 <./GPS_struct.png>] [4 <./PRN_gen.png>]
+<exp1.png, id=215, 859.2903pt x 426.393pt>
 File: exp1.png Graphic file (type png)
 <use exp1.png>
-Package pdftex.def Info: exp1.png  used on input line 183.
-(pdftex.def)             Requested size: 271.7835pt x 134.86102pt.
-<exp2.png, id=64, 859.2903pt x 426.393pt>
+Package pdftex.def Info: exp1.png  used on input line 185.
+(pdftex.def)             Requested size: 315.14594pt x 156.3771pt.
+<exp2.png, id=216, 859.2903pt x 426.393pt>
 File: exp2.png Graphic file (type png)
 <use exp2.png>
-Package pdftex.def Info: exp2.png  used on input line 200.
-(pdftex.def)             Requested size: 217.42265pt x 107.88622pt.
-<exp2_a.png, id=65, 859.2903pt x 426.393pt>
+Package pdftex.def Info: exp2.png  used on input line 202.
+(pdftex.def)             Requested size: 252.11194pt x 125.10168pt.
+<exp2_a.png, id=217, 859.2903pt x 426.393pt>
 File: exp2_a.png Graphic file (type png)
 <use exp2_a.png>
-Package pdftex.def Info: exp2_a.png  used on input line 207.
-(pdftex.def)             Requested size: 217.42265pt x 107.88622pt.
-[5 <./exp1.png>]
-
-LaTeX Warning: Reference `fig:exp2_a' on page 6 undefined on input line 229.
-
-<exp3.png, id=78, 1193.45876pt x 1193.45876pt>
+Package pdftex.def Info: exp2_a.png  used on input line 209.
+(pdftex.def)             Requested size: 252.11194pt x 125.10168pt.
+ [5 <./exp1.png> <./exp2.png> <./exp2_a.png>]
+<exp3.png, id=230, 1193.45876pt x 1193.45876pt>
 File: exp3.png Graphic file (type png)
 <use exp3.png>
-Package pdftex.def Info: exp3.png  used on input line 237.
-(pdftex.def)             Requested size: 271.7835pt x 271.77634pt.
-[6 <./exp2.png> <./exp2_a.png>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 248.
-<fine_dopp_a.png, id=93, 668.4975pt x 411.78844pt>
+Package pdftex.def Info: exp3.png  used on input line 239.
+(pdftex.def)             Requested size: 315.14594pt x 315.136pt.
+ [6 <./exp3.png>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 250.
+<fine_dopp_a.png, id=241, 668.4975pt x 411.78844pt>
 File: fine_dopp_a.png Graphic file (type png)
 <use fine_dopp_a.png>
-Package pdftex.def Info: fine_dopp_a.png  used on input line 289.
-(pdftex.def)             Requested size: 217.42265pt x 133.93018pt.
-<fine_dop_b.png, id=94, 668.4975pt x 411.78844pt>
+Package pdftex.def Info: fine_dopp_a.png  used on input line 291.
+(pdftex.def)             Requested size: 252.11194pt x 155.29994pt.
+<fine_dop_b.png, id=242, 668.4975pt x 411.78844pt>
 File: fine_dop_b.png Graphic file (type png)
 <use fine_dop_b.png>
-Package pdftex.def Info: fine_dop_b.png  used on input line 296.
-(pdftex.def)             Requested size: 217.42265pt x 133.93018pt.
- [7 <./exp3.png> <./fine_dopp_a.png> <./fine_dop_b.png>] [8]
-<cancellation.png, id=132, 917.4275pt x 635.37375pt>
+Package pdftex.def Info: fine_dop_b.png  used on input line 298.
+(pdftex.def)             Requested size: 252.11194pt x 155.29994pt.
+ [7 <./fine_dopp_a.png> <./fine_dop_b.png>]
+<cancellation.png, id=274, 917.4275pt x 635.37375pt>
 File: cancellation.png Graphic file (type png)
 <use cancellation.png>
-Package pdftex.def Info: cancellation.png  used on input line 338.
-(pdftex.def)             Requested size: 271.7835pt x 188.22862pt.
+Package pdftex.def Info: cancellation.png  used on input line 340.
+(pdftex.def)             Requested size: 315.14594pt x 218.25406pt.
+ [8 <./cancellation.png>]
+<misalign.png, id=284, 1193.45876pt x 792.9625pt>
+File: misalign.png Graphic file (type png)
+<use misalign.png>
+Package pdftex.def Info: misalign.png  used on input line 375.
+(pdftex.def)             Requested size: 315.14594pt x 209.38388pt.
  [9]
-
-/home/joel/BTP/report/report.tex:433: LaTeX Error: \begin{algorithm} on input line 350 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.433 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(./report.aux)
+<path1.png, id=289, 886.31125pt x 631.35875pt>
+File: path1.png Graphic file (type png)
+<use path1.png>
+Package pdftex.def Info: path1.png  used on input line 402.
+(pdftex.def)             Requested size: 252.11194pt x 179.5923pt.
+<spoofed_path1.png, id=290, 522.95375pt x 406.51875pt>
+File: spoofed_path1.png Graphic file (type png)
+<use spoofed_path1.png>
+Package pdftex.def Info: spoofed_path1.png  used on input line 409.
+(pdftex.def)             Requested size: 252.11194pt x 195.98279pt.
+<path2.png, id=291, 315.1775pt x 276.03125pt>
+File: path2.png Graphic file (type png)
+<use path2.png>
+Package pdftex.def Info: path2.png  used on input line 419.
+(pdftex.def)             Requested size: 252.11194pt x 220.80002pt.
+<spoofed_path2.png, id=292, 251.94125pt x 232.87pt>
+File: spoofed_path2.png Graphic file (type png)
+<use spoofed_path2.png>
+Package pdftex.def Info: spoofed_path2.png  used on input line 426.
+(pdftex.def)             Requested size: 252.11194pt x 233.02931pt.
+ [10 <./misalign.png> <./path1.png> <./spoofed_path1.png>]
+<t135.png, id=301, 670.00313pt x 411.78844pt>
+File: t135.png Graphic file (type png)
+<use t135.png>
+Package pdftex.def Info: t135.png  used on input line 473.
+(pdftex.def)             Requested size: 252.11194pt x 154.94807pt.
+<t135_sp.png, id=302, 649.67719pt x 398.99063pt>
+File: t135_sp.png Graphic file (type png)
+<use t135_sp.png>
+Package pdftex.def Info: t135_sp.png  used on input line 480.
+(pdftex.def)             Requested size: 252.11194pt x 154.82643pt.
+ [11 <./path2.png> <./spoofed_path2.png>]
+<t180.png, id=312, 670.00313pt x 411.78844pt>
+File: t180.png Graphic file (type png)
+<use t180.png>
+Package pdftex.def Info: t180.png  used on input line 490.
+(pdftex.def)             Requested size: 252.11194pt x 154.94807pt.
+<t180_sp.png, id=313, 649.67719pt x 398.99063pt>
+File: t180_sp.png Graphic file (type png)
+<use t180_sp.png>
+Package pdftex.def Info: t180_sp.png  used on input line 497.
+(pdftex.def)             Requested size: 252.11194pt x 154.82643pt.
+<t225.png, id=314, 668.4975pt x 411.78844pt>
+File: t225.png Graphic file (type png)
+<use t225.png>
+Package pdftex.def Info: t225.png  used on input line 507.
+(pdftex.def)             Requested size: 252.11194pt x 155.29994pt.
+<t225_sp.png, id=315, 645.16031pt x 397.485pt>
+File: t225_sp.png Graphic file (type png)
+<use t225_sp.png>
+Package pdftex.def Info: t225_sp.png  used on input line 514.
+(pdftex.def)             Requested size: 252.11194pt x 155.32178pt.
+<t225_z1.png, id=316, 462.22687pt x 411.78844pt>
+File: t225_z1.png Graphic file (type png)
+<use t225_z1.png>
+Package pdftex.def Info: t225_z1.png  used on input line 524.
+(pdftex.def)             Requested size: 168.07996pt x 149.73915pt.
+<t225_z2.png, id=317, 457.71pt x 411.78844pt>
+File: t225_z2.png Graphic file (type png)
+<use t225_z2.png>
+Package pdftex.def Info: t225_z2.png  used on input line 531.
+(pdftex.def)             Requested size: 168.07996pt x 151.21574pt.
+<t225_z3.png, id=318, 451.6875pt x 411.78844pt>
+File: t225_z3.png Graphic file (type png)
+<use t225_z3.png>
+Package pdftex.def Info: t225_z3.png  used on input line 538.
+(pdftex.def)             Requested size: 168.07996pt x 153.23271pt.
+ [12 <./t135.png> <./t135_sp.png> <./t180.png> <./t180_sp.png> <./t225.png> <./t225_sp.png>]
+<alpvsgain.png, id=332, 494.59781pt x 411.78844pt>
+File: alpvsgain.png Graphic file (type png)
+<use alpvsgain.png>
+Package pdftex.def Info: alpvsgain.png  used on input line 555.
+(pdftex.def)             Requested size: 315.14594pt x 262.38126pt.
+ [13 <./t225_z1.png> <./t225_z2.png> <./t225_z3.png> <./alpvsgain.png>] [14] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4B084981B00B19A59D68266D6434EF0A;4151.
-/home/joel/BTP/report/report.tex:433: You can't use `\end' in internal vertical mode.
-\enddocument ...cument/end}\deadcycles \z@ \@@end 
-                                                  
-l.433 \end{document}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-/home/joel/BTP/report/report.tex:433: LaTeX Error: \begin{algorithm} on input line 350 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.433 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/home/joel/BTP/report/report.tex:433: Missing } inserted.
-<inserted text> 
-                }
-l.433 \end{document}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
-! Emergency stop.
-<*> /home/joel/BTP/report/report
-                                
-*** (job aborted, no legal \end found)
-
- 
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 76B9B449787DAB4D286DCF5C17E91582;5934.
+ ) 
 Here is how much of TeX's memory you used:
- 11971 strings out of 474116
- 189332 string characters out of 5743689
- 1937187 words of memory out of 5000000
- 34132 multiletter control sequences out of 15000+600000
+ 12170 strings out of 474116
+ 192544 string characters out of 5743689
+ 1940187 words of memory out of 5000000
+ 34295 multiletter control sequences out of 15000+600000
  567637 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,476b,770s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on report.pdf (16 pages, 4573572 bytes).
+PDF statistics:
+ 435 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 443 words of extra memory for PDF output out of 10000 (max. 10000000)
+
